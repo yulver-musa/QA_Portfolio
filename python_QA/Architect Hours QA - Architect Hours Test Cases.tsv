@@ -1,0 +1,31 @@
+Title	Test Case ID	Input Type	Test Input	Expected Result	Notes	Test Result
+Successful Test Case #1	AH-01	Name	John	Success	Simple first name	
+Successful Test Case #2	AH-02	Name	John 	Success	Trailing space should be ignored	
+Successful Test Case #3	AH-03	Name	John Anderson	Success	First and last name	
+Successful Test Case #4	AH-04	Name	John Anderson 	Success	Trailing space should be ignored	
+Successful Test Case #5	AH-05	Name	 John Anderson	Success	Leading space should be ignored	
+Successful Test Case #6	AH-06	Name	John   Anderson	Success	Multiple spaces inside the name should be ignored	
+Successful Test Case #7	AH-07	Name	Anne-Marie Muller	Success	First and last name with hyphen	
+Successful Test Case #8	AH-08	Name	Henry O'Brian	Success	First and last name with apostrophe	
+Successful Test Case #9	AH-09	Name	Димитър Иванов	Success	First and last name in Cyrillic letters	
+Successful Test Case #10	AH-10	Project Count	0	Success	Zero is valid	
+Successful Test Case #11	AH-11	Project Count	5	Success	Valid integer	
+Successful Test Case #12	AH-12	Project Count	13	Success	Valid integer	
+Successful Test Case #13	AH-13	Project Count	21	Success	Valid integer	
+Successful Test Case #14	AH-14	Project Count	125	Success	Valid integer	
+Successful Test Case #15	AH-15	Project Count	-0	Success	Should treat as zero	
+Unsuccessful Test Case #1	AH-16	Name	" "	Unsuccessful	Only spaces	
+Unsuccessful Test  Case #2	AH-17	Name	""	Unsuccessful	Blank input	
+Unsuccessful Test Case #3	AH-18	Name	John123	Unsuccessful	Numbers in name	
+Unsuccessful Test  Case #4	AH-19	Name	1234	Unsuccessful	Only numbers	
+Unsuccessful Test Case #5	AH-20	Name	Jo$n1234	Unsuccessful	Special Characters and numbers	
+Unsuccessful Test Case #6	AH-21	Name	John @Dollar	Unsuccessful	Special character @	
+Unsuccessful Test Case #7	AH-22	Name	John.dollar@test.io	Unsuccessful	Email instead of name	
+Unsuccessful Test Case #8	AH-23	Project Count	6.5	Unsuccessful	Float is invalid	
+Unsuccessful Test Case #9	AH-24	Project Count	0.34	Unsuccessful	Float is invalid	
+Unsuccessful Test Case #10	AH-25	Project Count	3.14	Unsuccessful	Float is invalid	
+Unsuccessful Test Case #11	AH-26	Project Count	10.0	Unsuccessful	Float is invalid	
+Unsuccessful Test Case #12	AH-27	Project Count	""	Unsuccessful	Blank input	
+Unsuccessful Test Case #13	AH-28	Project Count	-9	Unsuccessful	Negative number	
+Unsuccessful Test Case #14	AH-29	Project Count	-10.00	Unsuccessful	Negative number	
+Unsuccessful Test Case #15	AH-30	Project Count	abc	Unsuccessful	Non-numeric input	
