@@ -15,9 +15,16 @@ def is_valid_project_count(count_str):
 
 # --Successful Name Test Cases--
 
-def test_AH_01_name_John():
+def test_ah_01_name_John():
     # Arrange
     name = "John"
+    # Act & Assert
+    assert is_valid_name(name) is True
+    assert calculate_hours(1) == 3
+
+def test_ah_02_name_John_trailing():
+    # Arrange
+    name = "John "
     # Act & Assert
     assert is_valid_name(name) is True
     assert calculate_hours(1) == 3
@@ -25,7 +32,7 @@ def test_AH_01_name_John():
 
 # --Successful Count Test Cases--
 
-def test_AH_10_project_count_zero():
+def test_ah_10_project_count_zero():
     project_count = "0"
     assert is_valid_project_count(project_count) is True
     assert calculate_hours(int(project_count)) == 0
