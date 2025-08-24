@@ -29,6 +29,19 @@ def test_ah_02_name_John_trailing():
     assert is_valid_name(name) is True
     assert calculate_hours(1) == 3
 
+def test_ah_03_name_John_Anderson():
+    # Arrange
+    name = "John Anderson"
+    # Act & Assert
+    assert is_valid_name(name) is True
+    assert calculate_hours(1) == 3
+
+def test_ah_04_name_John_Anderson_trailing():
+    # Arrange
+    name = "John Anderson "
+    # Act & Assert
+    assert is_valid_name(name) is True
+    assert calculate_hours(1) == 3
 
 # --Successful Count Test Cases--
 
