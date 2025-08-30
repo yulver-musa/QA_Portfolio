@@ -63,6 +63,20 @@ def test_ah_06_name_John_Anderson_multiple():
     assert calculate_hours(1) == 3
 
 
+def test_ah_07_name_Anne_Marie_Muller_dash():
+    # Arrange
+    name = "Anne-Marie Muller"
+    # Act & Assert
+    assert is_valid_name(name) is True
+    assert calculate_hours(1) == 3
+
+
+def test_ah_08_name_Henry_O_Brian_apostrophe():
+    # Arrange
+    name = "Henry O'Brian"
+    # Act & Assert
+    assert is_valid_name(name) is True
+    assert calculate_hours(1) == 3
 # --Successful Count Test Cases--
 
 def test_ah_10_project_count_zero():
