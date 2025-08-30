@@ -77,6 +77,16 @@ def test_ah_08_name_Henry_O_Brian_apostrophe():
     # Act & Assert
     assert is_valid_name(name) is True
     assert calculate_hours(1) == 3
+
+
+def test_ah_09_name_Dimitar_Ivanov_multiple():
+    # Arrange
+    name = "Димитър Иванов"
+    # Act & Assert
+    assert is_valid_name(name) is True
+    assert calculate_hours(1) == 3
+
+
 # --Successful Count Test Cases--
 
 def test_ah_10_project_count_zero():
