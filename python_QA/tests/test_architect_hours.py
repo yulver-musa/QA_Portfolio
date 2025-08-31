@@ -105,3 +105,10 @@ def test_ah_12_project_count_thirteen():
     project_count = "13"
     assert is_valid_project_count(project_count) is True
     assert calculate_hours(int(project_count)) == 39
+
+
+
+def test_ah_13_project_count_twentyone():
+    project_count = "21"
+    assert is_valid_project_count(project_count) is True
+    assert calculate_hours(int(project_count)) == 63
