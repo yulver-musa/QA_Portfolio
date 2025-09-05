@@ -124,3 +124,12 @@ def test_ah_15_project_count_minuszero():
     project_count = "-0"
     assert is_valid_project_count(project_count) is True
     assert calculate_hours(int(project_count)) == 0
+
+# --Unsuccessful Name Test Cases--
+
+def test_ah_16_project_name_emptyspace():
+    # Arrange
+    name = " "
+    # Act & Assert
+    assert is_valid_name(name) is False
+    assert calculate_hours(1) == 3
