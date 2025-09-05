@@ -119,12 +119,14 @@ def test_ah_13_project_count_twentyone():
 
 
 def test_ah_14_project_count_hundredtwentyfive():
+    # Arrange
     project_count = "125"
     assert is_valid_project_count(project_count) is True
     assert calculate_hours(int(project_count)) == 375
 
 
 def test_ah_15_project_count_minuszero():
+    # Arrange
     project_count = "-0"
     assert is_valid_project_count(project_count) is True
     assert calculate_hours(int(project_count)) == 0
