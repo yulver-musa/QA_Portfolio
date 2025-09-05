@@ -92,6 +92,7 @@ def test_ah_09_name_Dimitar_Ivanov_multiple():
 def test_ah_10_project_count_zero():
     # Arrange
     project_count = "0"
+    # Act & Assert
     assert is_valid_project_count(project_count) is True
     assert calculate_hours(int(project_count)) == 0
 
@@ -99,6 +100,7 @@ def test_ah_10_project_count_zero():
 def test_ah_11_project_count_five():
     # Arrange
     project_count = "5"
+    # Act & Assert
     assert is_valid_project_count(project_count) is True
     assert calculate_hours(int(project_count)) == 15
 
@@ -106,6 +108,7 @@ def test_ah_11_project_count_five():
 def test_ah_12_project_count_thirteen():
     # Arrange
     project_count = "13"
+    # Act & Assert
     assert is_valid_project_count(project_count) is True
     assert calculate_hours(int(project_count)) == 39
 
