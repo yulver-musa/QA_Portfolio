@@ -142,3 +142,10 @@ def test_ah_16_project_name_emptyspace():
     # Act & Assert
     assert is_valid_name(name) is False
     assert calculate_hours(1) == 3
+
+def test_ah_17_project_name_blank():
+    # Arrange
+    name = ""
+    # Act & Assert
+    assert is_valid_name(name) is False
+    assert calculate_hours(1) == 3
