@@ -172,3 +172,11 @@ def test_ah_20_project_name_textwithcharandinteger():
     # Act & Assert
     assert is_valid_name(name) is False
     assert calculate_hours(1) == 3
+
+
+def test_ah_21_project_name_textwithblankandchar():
+    # Arrange
+    name = "John @Dollar"
+    # Act & Assert
+    assert is_valid_name(name) is False
+    assert calculate_hours(1) == 3
