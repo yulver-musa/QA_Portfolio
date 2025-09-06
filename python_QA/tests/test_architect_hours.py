@@ -156,3 +156,11 @@ def test_ah_18_project_name_textandinteger():
     # Act & Assert
     assert is_valid_name(name) is False
     assert calculate_hours(1) == 3
+
+
+def test_ah_19_project_name_integer():
+    # Arrange
+    name = "1234"
+    # Act & Assert
+    assert is_valid_name(name) is False
+    assert calculate_hours(1) == 3
