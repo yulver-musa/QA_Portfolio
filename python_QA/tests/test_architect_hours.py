@@ -188,3 +188,6 @@ def test_ah_22_project_name_email():
     # Act & Assert
     assert is_valid_name(name) is False
     assert calculate_hours(1) == 3
+
+
+# --Unsuccessful Count Test Cases--
