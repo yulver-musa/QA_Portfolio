@@ -191,3 +191,9 @@ def test_ah_22_project_name_email():
 
 
 # --Unsuccessful Count Test Cases--
+
+
+def test_ah_23_project_count_float():
+    # Arrange
+    project_count = 6.5
+    assert is_valid_project_count(project_count) is False
