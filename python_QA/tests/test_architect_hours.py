@@ -184,7 +184,7 @@ def test_ah_21_project_name_textwithblankandchar():
 
 def test_ah_22_project_name_email():
     # Arrange
-    name = ""
+    name = "John.dollar@test.io"
     # Act & Assert
     assert is_valid_name(name) is False
     assert calculate_hours(1) == 3
