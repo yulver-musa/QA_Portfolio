@@ -224,3 +224,8 @@ def test_ah_26_project_count_float3():
     assert is_valid_project_count(project_count) is False
 
 
+def test_ah_27_project_count_blank():
+    # Arrange
+    project_count = ""
+    # Act & Assert
+    assert is_valid_project_count(project_count) is False
