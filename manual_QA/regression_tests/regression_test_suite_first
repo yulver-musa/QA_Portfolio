@@ -1,0 +1,5 @@
+# Regression Test Suite – OpenCart Demo (Login & Checkout)
+
+**Application Under Test:** OpenCart Demo [https://demo.opencart.com/]  
+**Scope:** Core regression tests for login and checkout features.  
+**Objective:** Ensure existing functionality continues to work after updates.  
