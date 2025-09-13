@@ -201,3 +201,10 @@ def test_ah_23_project_count_float():
     project_count = "6.5"
     # Act & Assert
     assert is_valid_project_count(project_count) is False
+
+
+def test_ah_24_project_count_pi():
+    # Arrange
+    project_count = "0.34"
+    # Act & Assert
+    assert is_valid_project_count(project_count) is False
