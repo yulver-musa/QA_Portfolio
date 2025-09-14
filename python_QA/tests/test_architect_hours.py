@@ -113,7 +113,6 @@ def test_ah_12_project_count_thirteen():
     assert calculate_hours(int(project_count)) == 39
 
 
-
 def test_ah_13_project_count_twentyone():
     # Arrange
     project_count = "21"
@@ -122,7 +121,7 @@ def test_ah_13_project_count_twentyone():
     assert calculate_hours(int(project_count)) == 63
 
 
-def test_ah_14_project_count_hundredtwentyfive():
+def test_ah_14_project_count_hundred_twenty_five():
     # Arrange
     project_count = "125"
     # Act & Assert
@@ -130,7 +129,7 @@ def test_ah_14_project_count_hundredtwentyfive():
     assert calculate_hours(int(project_count)) == 375
 
 
-def test_ah_15_project_count_minuszero():
+def test_ah_15_project_count_minus_zero():
     # Arrange
     project_count = "-0"
     # Act & Assert
@@ -139,12 +138,14 @@ def test_ah_15_project_count_minuszero():
 
 # --Unsuccessful Name Test Cases--
 
-def test_ah_16_project_name_emptyspace():
+
+def test_ah_16_project_name_empty_space():
     # Arrange
     name = " "
     # Act & Assert
     assert is_valid_name(name) is False
     assert calculate_hours(1) == 3
+
 
 def test_ah_17_project_name_blank():
     # Arrange
@@ -153,7 +154,8 @@ def test_ah_17_project_name_blank():
     assert is_valid_name(name) is False
     assert calculate_hours(1) == 3
 
-def test_ah_18_project_name_textandinteger():
+
+def test_ah_18_project_name_text_and_integer():
     # Arrange
     name = "John123"
     # Act & Assert
@@ -169,7 +171,7 @@ def test_ah_19_project_name_integer():
     assert calculate_hours(1) == 3
 
 
-def test_ah_20_project_name_textwithcharandinteger():
+def test_ah_20_project_name_text_with_char_and_integer():
     # Arrange
     name = "Jo$n1234"
     # Act & Assert
@@ -177,7 +179,7 @@ def test_ah_20_project_name_textwithcharandinteger():
     assert calculate_hours(1) == 3
 
 
-def test_ah_21_project_name_textwithblankandchar():
+def test_ah_21_project_name_text_with_blank_and_char():
     # Arrange
     name = "John @Dollar"
     # Act & Assert
