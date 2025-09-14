@@ -237,3 +237,9 @@ def test_ah_28_project_count_negative():
     # Act & Assert
     assert is_valid_project_count(project_count) is False
 
+
+def test_ah_29_project_count_negative_float():
+    # Arrange
+    project_count = "-10.00"
+    # Act & Assert
+    assert is_valid_project_count(project_count) is False
