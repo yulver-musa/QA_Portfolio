@@ -48,3 +48,20 @@ def calculate_movie_budget(movie_budget, crew_members, costume_price, director_n
         message = f"Not enough money! {director_name} needs {difference:.2f} leva more for '{movie_name}'."
 
     return True, message, difference
+
+
+def main():
+    try:
+        movie_budget = float(input("Enter movie budget: "))
+        crew_members = int(input("Enter number of crew members: "))
+        costume_price = float(input("Enter costume price: "))
+        director_name = input("Enter director's name: ")
+        movie_name = input("Enter movie name: ")
+
+        valid, message, difference = calculate_movie_budget(
+            movie_budget, crew_members, costume_price, director_name, movie_name
+        )
+        print(message)
+    except ValueError:
+        print("Invalid input type. Please enter numbers where required.")
+
