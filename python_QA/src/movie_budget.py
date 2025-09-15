@@ -38,3 +38,13 @@ def calculate_movie_budget(movie_budget, crew_members, costume_price, director_n
     total_costumes = crew_members * costume_price
     total_expenditures = total_costumes + decor
 
+    # --- Calculation ---
+    difference = round(movie_budget - total_expenditures, 2)
+
+    if movie_budget >= total_expenditures:
+        message = f"Action {director_name} starts filming '{movie_name}' with " \
+                  f"{difference:.2f} leva left."
+    else:
+        message = f"Not enough money! {director_name} needs {difference:.2f} leva more for '{movie_name}'."
+
+    return True, message, difference
