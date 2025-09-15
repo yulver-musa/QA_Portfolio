@@ -65,3 +65,6 @@ def main():
     except ValueError:
         print("Invalid input type. Please enter numbers where required.")
 
+
+if __name__ == "__main__":
+    main()
