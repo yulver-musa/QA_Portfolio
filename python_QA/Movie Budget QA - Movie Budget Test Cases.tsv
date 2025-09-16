@@ -1,0 +1,28 @@
+
+| Title                         | Test Case ID | Input Type     | Test Input        | Expected Result | Notes                            | Test Result |
+| ----------------------------- | ------------ | -------------- | ----------------- | --------------- | -------------------------------- | ----------- |
+| Valid Budget Positive Float   | MB-01        | movie\_budget  | 100000.00         | Success         | Budget > 0                       |        |
+| Valid Budget Positive Int     | MB-02        | movie\_budget  | 50000             | Success         | Integer also valid               |        |
+| Valid Crew Positive Int       | CM-01        | crew\_members  | 100               | Success         | Crew within normal range         |        |
+| Valid Crew High Int           | CM-02        | crew\_members  | 200               | Success         | Over 150 triggers discount logic |        |
+| Valid Costume Price Float     | CP-01        | costume\_price | 250.75            | Success         | Positive float                   |        |
+| Valid Costume Price Int       | CP-02        | costume\_price | 100               | Success         | Positive int accepted            |        |
+| Valid Director Simple Name    | DN-01        | director\_name | John Smith        | Success         | Regular two-part name            |        |
+| Valid Director Name w/ Spaces | DN-02        | director\_name | Christopher Nolan | Success         | Spaces allowed                   |        |
+| Valid Movie Title Simple      | MN-01        | movie\_name    | Inception         | Success         | One word title                   |        |
+| Valid Movie Title Multi-word  | MN-02        | movie\_name    | The Dark Knight   | Success         | Multiple words allowed           |        |
+| Zero Budget               | MB-03        | movie\_budget  | 0          | Fail  | Budget must be > 0   | Fail        |
+| Negative Budget           | MB-04        | movie\_budget  | -50000     | Fail  | Negative not allowed | Fail        |
+| Non-numeric Budget        | MB-05        | movie\_budget  | "abc"      | Fail  | Wrong type           | Fail        |
+| Zero Crew                 | CM-03        | crew\_members  | 0          | Fail  | Crew must be > 0     | Fail        |
+| Negative Crew             | CM-04        | crew\_members  | -10        | Fail  | Invalid number       | Fail        |
+| Non-integer Crew          | CM-05        | crew\_members  | 10.5       | Fail  | Float not allowed    | Fail        |
+| Zero Costume Price        | CP-03        | costume\_price | 0          | Fail  | Price must be > 0    | Fail        |
+| Negative Costume Price    | CP-04        | costume\_price | -50        | Fail  | Not allowed          | Fail        |
+| Non-numeric Costume Price | CP-05        | costume\_price | "fifty"    | Fail  | Wrong type           | Fail        |
+| Empty Director Name       | DN-03        | director\_name | ""         | Fail  | Empty string invalid | Fail        |
+| Whitespace Director Name  | DN-04        | director\_name | "   "      | Fail  | Must strip and check | Fail        |
+| Non-string Director Name  | DN-05        | director\_name | 1234       | Fail  | Wrong type           | Fail        |
+| Empty Movie Name          | MN-03        | movie\_name    | ""         | Fail  | Cannot be empty      | Fail        |
+| Whitespace Movie Name     | MN-04        | movie\_name    | "   "      | Fail  | Only spaces invalid  | Fail        |
+| Non-string Movie Name     | MN-05        | movie\_name    | 5678       | Fail  | Wrong type           | Fail        |
