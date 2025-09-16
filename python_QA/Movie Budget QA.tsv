@@ -1,0 +1,28 @@
+Type of Test	Title	Test Case ID	Input Type	Test Input	Expected Result	Notes	Test Result
+Successful Test Case #1	Valid Budget Positive Float	MB-01	movie_budget	1000.00	Success	Budget > 0	
+Successful Test Case #2	Valid Budget Positive Int	MB-02	movie_budget	50000	Success	Integer also valid	
+							
+	Valid Crew Positive Int	CM-01	crew_members	100	Success	Crew within normal range	
+	Valid Crew High Int	CM-02	crew_members	200	Success	Over 150 triggers discount logic	
+	Valid Costume Price Float	CP-01	costume_price	250.75	Success	Positive float	
+	Valid Costume Price Int	CP-02	costume_price	100	Success	Positive int accepted	
+	Valid Director Simple Name	DN-01	director_name	John Smith	Success	Regular two-part name	
+	Valid Director Name w/ Spaces	DN-02	director_name	Christopher Nolan	Success	Spaces allowed	
+	Valid Movie Title Simple	MN-01	movie_name	Inception	Success	One word title	
+	Valid Movie Title Multi-word	MN-02	movie_name	The Dark Knight	Success	Multiple words allowed	
+	Title	Test Case ID	Input Type	Test Input	Expected Result	Notes	Test Result
+	Zero Budget	MB-03	movie_budget	0	Fail – ""Invalid input data provided.""	Budget must be > 0	
+	Negative Budget	MB-04	movie_budget	-50000	Fail – ""Invalid input data provided.""	Negative not allowed	
+	Non-numeric Budget	MB-05	movie_budget	""abc""	Fail – ""Invalid input data provided.""	Wrong type	
+	Zero Crew	CM-03	crew_members	0	Fail – ""Invalid input data provided.""	Crew must be > 0	
+	Negative Crew	CM-04	crew_members	-10	Fail – ""Invalid input data provided.""	Invalid number	
+	Non-integer Crew	CM-05	crew_members	10.5	Fail – ""Invalid input data provided.""	Float not allowed	
+	Zero Costume Price	CP-03	costume_price	0	Fail – ""Invalid input data provided.""	Price must be > 0	
+	Negative Costume Price	CP-04	costume_price	-50	Fail – ""Invalid input data provided.""	Not allowed	
+	Non-numeric Costume Price	CP-05	costume_price	""fifty""	Fail – ""Invalid input data provided.""	Wrong type	
+	Empty Director Name	DN-03	director_name	""""	Fail – ""Invalid input data provided.""	Empty string invalid	
+	Whitespace Director Name	DN-04	director_name	"" ""	Fail – ""Invalid input data provided.""	Must strip and check	
+	Non-string Director Name	DN-05	director_name	1234	Fail – ""Invalid input data provided.""	Wrong type	
+	Empty Movie Name	MN-03	movie_name	""""	Fail – ""Invalid input data provided.""	Cannot be empty	
+	Whitespace Movie Name	MN-04	movie_name	"" ""	Fail – ""Invalid input data provided.""	Only spaces invalid	
+	Non-string Movie Name	MN-05	movie_name	5678	Fail – ""Invalid input data provided.""	Wrong type	
