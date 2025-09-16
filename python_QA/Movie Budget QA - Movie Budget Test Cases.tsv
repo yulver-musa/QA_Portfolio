@@ -1,3 +1,4 @@
+
 | Title                         | Test Case ID | Input Type     | Test Input        | Expected Result | Notes                            | Test Result |
 | ----------------------------- | ------------ | -------------- | ----------------- | --------------- | -------------------------------- | ----------- |
 | Valid Budget Positive Float   | MB-01        | movie\_budget  | 100000.00         | Success         | Budget > 0                       |        |
