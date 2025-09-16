@@ -15,3 +15,9 @@ def is_valid_costume_price(costumes):
     return isinstance(costumes, (int, float)) and costumes > 0
 
 
+def is_valid_director_name(director):
+    return isinstance(director, str) and director.strip() != ""
+
+
+def is_valid_movie_name(movie):
+    return isinstance(movie, str) and movie.strip() != ""
