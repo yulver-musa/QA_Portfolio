@@ -31,3 +31,10 @@ def test_mb_01_integer_high():
     budget = 500000
     # Act&Assert
     assert is_valid_budget(budget) is True
+
+
+def test_mb_02_float_high():
+    # Arrange
+    budget = 150000.15
+    assert  is_valid_budget(budget) is True
+
