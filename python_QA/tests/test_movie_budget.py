@@ -29,17 +29,19 @@ def is_valid_movie_name(movie):
 def test_mb_01_integer_high():
     # Arrange
     budget = 500000
-    # Act&Assert
+    # Act & Assert
     assert is_valid_budget(budget) is True
 
 
 def test_mb_02_float_high():
     # Arrange
     budget = 150000.15
-    assert  is_valid_budget(budget) is True
+    # Act & Assert
+    assert is_valid_budget(budget) is True
 
 def test_mb_03_integer_low():
     # Arrange
     budget = 20
+    # Act & Assert
     assert is_valid_budget(budget) is True
 
