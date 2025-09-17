@@ -61,3 +61,6 @@ def test_mb_05_float_medium():
     assert is_valid_budget(budget) is True
 
 def test_mb_06_float_medium():
+    # Arrange
+    budget = 999
+    # Act & Assert
