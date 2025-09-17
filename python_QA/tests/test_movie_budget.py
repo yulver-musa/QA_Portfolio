@@ -53,3 +53,9 @@ def test_mb_04_float_low():
     # Act & Assert
     assert is_valid_budget(budget) is True
 
+
+def test_mb_05_float_medium():
+    # Arrange
+    budget = 1234.65
+    # Act & Assert
+    assert is_valid_budget(budget) is True
