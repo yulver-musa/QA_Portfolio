@@ -79,3 +79,6 @@ def test_mb_08_crew_integer_high():
     crew = 222
     # Act & Assert
     assert is_valid_crew_members(crew) is True
+
+
+def test_mb_09_crew_integer_low():
