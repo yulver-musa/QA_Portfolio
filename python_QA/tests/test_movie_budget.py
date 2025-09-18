@@ -75,4 +75,6 @@ def test_mb_07_crew_integer_medium():
 
 
 def test_mb_08_crew_integer_high():
+    # Arrange
+    crew = 222
 
