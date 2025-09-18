@@ -64,11 +64,11 @@ def test_mb_06_float_medium():
     # Arrange
     budget = 999
     # Act & Assert
-    assert is_valid_budget() is True
+    assert is_valid_budget(budget) is True
 
 
 def test_mb_07_crew_integer_medium():
     # Arrange
     crew = 12
     # Act & Assert
-    assert is_valid_crew_members() is True
+    assert is_valid_crew_members(crew) is True
