@@ -82,3 +82,5 @@ def test_mb_08_crew_integer_high():
 
 
 def test_mb_09_crew_integer_low():
+    # Arrange
+    crew = 2
