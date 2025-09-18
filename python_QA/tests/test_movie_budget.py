@@ -85,3 +85,4 @@ def test_mb_09_crew_integer_low():
     # Arrange
     crew = 2
     # Act & Assert
+    assert is_valid_crew_members(crew) is True
