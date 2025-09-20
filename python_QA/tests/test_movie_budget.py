@@ -91,3 +91,8 @@ def test_mb_09_crew_integer_low():
 def test_mb_10_costume_integer_medium():
     costume = 150
     assert is_valid_costume_price(costume) is True
+
+
+def test_mb_11_costume_float_medium():
+    costume = 123.34
+    assert is_valid_costume_price(costume) is True
