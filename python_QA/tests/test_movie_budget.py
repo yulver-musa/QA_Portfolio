@@ -152,5 +152,7 @@ def test_mb_18_director_with_hyphen():
 
 
 def test_mb_19_director_with_apostrophe():
+    # Arrange
     director = "Henry O'Brian"
+    # Act & Assert
     assert is_valid_director_name(director) is True
