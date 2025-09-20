@@ -86,3 +86,8 @@ def test_mb_09_crew_integer_low():
     crew = 2
     # Act & Assert
     assert is_valid_crew_members(crew) is True
+
+
+def test_mb_10_costume_integer_medium():
+    costume = 150
+    assert is_valid_costume_price(costume) is True
