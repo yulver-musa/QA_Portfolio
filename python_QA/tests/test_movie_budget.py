@@ -131,3 +131,8 @@ def test_mb_17_director_first_and_last_names():
 def test_mb_18_director_with_hyphen():
     director = "Anne-Marie Muller"
     assert is_valid_director_name(director) is True
+
+
+def test_mb_19_director_with_apostrophe():
+    director = "Henry O'Brian"
+    assert is_valid_director_name(director) is True
