@@ -89,7 +89,9 @@ def test_mb_09_crew_integer_low():
 
 
 def test_mb_10_costume_integer_medium():
+    # Arrange
     costume = 150
+    # Act & Assert
     assert is_valid_costume_price(costume) is True
 
 
