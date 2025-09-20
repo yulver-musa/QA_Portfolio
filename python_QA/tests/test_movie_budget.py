@@ -124,7 +124,9 @@ def test_mb_14_costume_integer_high():
 
 
 def test_mb_15_costume_float_high():
+    # Arrange
     costume = 625.12
+    # Act & Assert
     assert is_valid_costume_price(costume) is True
 
 
