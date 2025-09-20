@@ -116,3 +116,8 @@ def test_mb_14_costume_integer_high():
 def test_mb_15_costume_float_high():
     costume = 625.12
     assert is_valid_costume_price(costume) is True
+
+
+def test_mb_16_director_first_name():
+    director = "John"
+    assert is_valid_director_name(director) is True
