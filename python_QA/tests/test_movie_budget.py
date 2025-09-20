@@ -145,7 +145,9 @@ def test_mb_17_director_first_and_last_names():
 
 
 def test_mb_18_director_with_hyphen():
+    # Arrange
     director = "Anne-Marie Muller"
+    # Act & Assert
     assert is_valid_director_name(director) is True
 
 
