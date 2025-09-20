@@ -121,3 +121,10 @@ def test_mb_15_costume_float_high():
 def test_mb_16_director_first_name():
     director = "John"
     assert is_valid_director_name(director) is True
+
+
+def test_mb_17_director_first_and_last_names():
+    director = "John Smith"
+    assert is_valid_director_name(director) is True
+
+
