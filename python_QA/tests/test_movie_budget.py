@@ -131,7 +131,9 @@ def test_mb_15_costume_float_high():
 
 
 def test_mb_16_director_first_name():
+    # Arrange
     director = "John"
+    # Act & Assert
     assert is_valid_director_name(director) is True
 
 
