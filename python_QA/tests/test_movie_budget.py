@@ -138,7 +138,9 @@ def test_mb_16_director_first_name():
 
 
 def test_mb_17_director_first_and_last_names():
+    # Arrange
     director = "John Smith"
+    # Act & Assert
     assert is_valid_director_name(director) is True
 
 
