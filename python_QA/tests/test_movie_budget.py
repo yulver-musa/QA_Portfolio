@@ -166,5 +166,7 @@ def test_mb_20_director_with_name_tailing():
 
 
 def test_mb_21_director_with_name_leading():
+    # Arrange
     director = " John"
+    # Act & Assert
     assert is_valid_director_name(director) is True
