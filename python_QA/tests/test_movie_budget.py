@@ -184,3 +184,8 @@ def test_mb_23_director_cyrillic():
     director = "Димитър Иванов"
     # Act & Assert
     assert is_valid_director_name(director)
+
+
+def test_mb_24_director_spaces():
+    director = " John  Smith "
+    assert is_valid_director_name(director)
