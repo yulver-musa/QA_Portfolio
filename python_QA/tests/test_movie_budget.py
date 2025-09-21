@@ -180,5 +180,7 @@ def test_mb_22_director_with_space_between():
 
 
 def test_mb_23_director_cyrillic():
+    # Arrange
     director = "Димитър Иванов"
+    # Act & Assert
     assert is_valid_director_name(director)
