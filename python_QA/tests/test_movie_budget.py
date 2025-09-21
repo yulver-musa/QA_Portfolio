@@ -173,5 +173,7 @@ def test_mb_21_director_with_name_leading():
 
 
 def test_mb_22_director_with_space_between():
+    # Arrange
     director = "John  Smith"
+    # Act & Assert
     assert is_valid_director_name(director) is True
