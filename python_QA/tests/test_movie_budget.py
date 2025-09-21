@@ -159,5 +159,7 @@ def test_mb_19_director_with_apostrophe():
 
 
 def test_mb_20_director_with_name_tailing():
+    # Arrange
     director = "John "
+    # Act & Assert
     assert is_valid_director_name(director) is True
