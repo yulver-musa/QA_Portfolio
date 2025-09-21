@@ -170,3 +170,8 @@ def test_mb_21_director_with_name_leading():
     director = " John"
     # Act & Assert
     assert is_valid_director_name(director) is True
+
+
+def test_mb_22_director_with_space_between():
+    director = "John  Smith"
+    assert is_valid_director_name(director) is True
