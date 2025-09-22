@@ -194,3 +194,8 @@ def test_mb_24_director_spaces():
 
 
 # --Movie Name successful Test Cases--
+
+
+def test_mb_25_movie_one_word():
+    movie = "Accountant"
+    assert is_valid_movie_name(movie)
