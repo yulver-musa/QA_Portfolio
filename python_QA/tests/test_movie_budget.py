@@ -201,3 +201,8 @@ def test_mb_25_movie_one_word():
     movie = "Accountant"
     # Act & Assert
     assert is_valid_movie_name(movie)
+
+
+def test_mb_26_movie_leading_space():
+    movie = " Accountant"
+    assert is_valid_movie_name(movie)
