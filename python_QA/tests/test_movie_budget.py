@@ -197,5 +197,7 @@ def test_mb_24_director_spaces():
 
 
 def test_mb_25_movie_one_word():
+    # Arrange
     movie = "Accountant"
+    # Act & Assert
     assert is_valid_movie_name(movie)
