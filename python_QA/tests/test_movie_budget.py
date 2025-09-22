@@ -90,6 +90,8 @@ def test_mb_09_crew_integer_low():
     # Act & Assert
     assert is_valid_crew_members(crew) is True
 
+# --Successful Costume Test Cases--
+
 
 def test_mb_10_costume_integer_medium():
     # Arrange
