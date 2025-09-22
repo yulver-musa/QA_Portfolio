@@ -208,3 +208,8 @@ def test_mb_26_movie_leading_space():
     movie = " Accountant"
     # Act & Assert
     assert is_valid_movie_name(movie)
+
+
+def test_mb_27_movie_tailing_space():
+    movie = "Accountant "
+    assert is_valid_movie_name(movie)
