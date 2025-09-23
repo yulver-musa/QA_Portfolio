@@ -239,5 +239,7 @@ def test_mb_29_movie_multiple_spaces():
 
 
 def test_mb_30_movie_hyphen():
+    # Arrange
     movie = "The Diary of Anne-Marie"
+    # Act & Assert
     assert is_valid_movie_name(movie)
