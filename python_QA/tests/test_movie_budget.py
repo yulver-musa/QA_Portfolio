@@ -250,3 +250,8 @@ def test_mb_31_movie_apostrophe():
     movie = "The Life of Henry O'Brian"
     # Act & Assert
     assert is_valid_movie_name(movie)
+
+
+def test_mb_32_movie_cyrillic():
+    movie = "Оркестър Без Име"
+    assert is_valid_movie_name()
