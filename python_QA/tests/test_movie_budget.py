@@ -229,3 +229,8 @@ def test_mb_28_movie_two_words():
     movie = "The Accountant"
     # Act & Assert
     assert is_valid_movie_name(movie)
+
+
+def test_mb_29_movie_multiple_spaces():
+    movie = "The  Accountant"
+    assert is_valid_movie_name(movie)
