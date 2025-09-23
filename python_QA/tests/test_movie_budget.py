@@ -222,3 +222,8 @@ def test_mb_27_movie_tailing_space():
     movie = "Accountant "
     # Act & Assert
     assert is_valid_movie_name(movie)
+
+
+def test_mb_28_movie_two_words():
+    movie = "The Accountant"
+    assert is_valid_movie_name(movie)
