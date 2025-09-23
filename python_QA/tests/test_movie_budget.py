@@ -243,3 +243,8 @@ def test_mb_30_movie_hyphen():
     movie = "The Diary of Anne-Marie"
     # Act & Assert
     assert is_valid_movie_name(movie)
+
+
+def test_mb_31_movie_apostrophe():
+    movie = "The Life of Henry O'Brian"
+    assert is_valid_movie_name(movie)
