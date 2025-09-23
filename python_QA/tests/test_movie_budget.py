@@ -253,5 +253,7 @@ def test_mb_31_movie_apostrophe():
 
 
 def test_mb_32_movie_cyrillic():
+    # Arrange
     movie = "Оркестър Без Име"
+    # Act & Assert
     assert is_valid_movie_name()
