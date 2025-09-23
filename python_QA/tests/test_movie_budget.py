@@ -236,3 +236,8 @@ def test_mb_29_movie_multiple_spaces():
     movie = "The  Accountant"
     # Act & Assert
     assert is_valid_movie_name(movie)
+
+
+def test_mb_30_movie_hyphen():
+    movie = "The Diary of Anne-Marie"
+    assert is_valid_movie_name(movie)
