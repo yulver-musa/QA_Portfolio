@@ -246,5 +246,7 @@ def test_mb_30_movie_hyphen():
 
 
 def test_mb_31_movie_apostrophe():
+    # Arrange
     movie = "The Life of Henry O'Brian"
+    # Act & Assert
     assert is_valid_movie_name(movie)
