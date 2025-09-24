@@ -256,4 +256,11 @@ def test_mb_32_movie_cyrillic():
     # Arrange
     movie = "Оркестър Без Име"
     # Act & Assert
-    assert is_valid_movie_name()
+    assert is_valid_movie_name(movie)
+
+
+def test_mb_33_movie_spaces():
+    # Arrange
+    movie = " The  Accountant "
+    # Act & Assert
+    assert is_valid_movie_name(movie)
