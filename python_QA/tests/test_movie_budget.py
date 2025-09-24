@@ -308,3 +308,10 @@ def test_mb_39_budget_character():
     budget = "$500"
     # Act & Assert
     assert is_valid_budget(budget) is False
+
+
+def test_mb_40_budget_space():
+    # Arrange
+    budget = " "
+    # Act & Assert
+    assert is_valid_budget(budget) is False
