@@ -366,3 +366,10 @@ def test_mb_47_crew_text():
     crew = "Hundred and twenty five"
     # Act & Assert
     assert is_valid_crew_members(crew) is False
+
+
+def test_mb_48_crew_char():
+    # Arrange
+    crew = "$55.99"
+    # Act & Assert
+    assert is_valid_crew_members(crew) is False
