@@ -315,3 +315,13 @@ def test_mb_40_budget_space():
     budget = " "
     # Act & Assert
     assert is_valid_budget(budget) is False
+
+# --Unsuccessful Crew Test Cases--
+
+
+def test_mb_41_crew_blank():
+    # Arrange
+    crew = ""
+    # Act & Assert
+    assert is_valid_crew_members(crew) is False
+
