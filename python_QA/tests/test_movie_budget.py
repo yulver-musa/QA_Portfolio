@@ -280,3 +280,11 @@ def test_mb_35_budget_zero():
     budget = "0"
     # Act & Assert
     assert is_valid_budget(budget) is False
+
+
+def test_mb_36_budget_negative_integer():
+    # Arrange
+    budget = "-123"
+    # Act & Assert
+    assert is_valid_budget(budget) is False
+
