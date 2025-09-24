@@ -382,3 +382,10 @@ def test_mb_49_costume_blank():
     costume = ""
     # Act & Assert
     assert is_valid_costume_price(costume) is False
+
+
+def test_mb_50_costume_space():
+    # Arrange
+    costume = " "
+    # Act & Assert
+    assert is_valid_costume_price(costume) is False
