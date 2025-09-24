@@ -373,3 +373,12 @@ def test_mb_48_crew_char():
     crew = "$55.99"
     # Act & Assert
     assert is_valid_crew_members(crew) is False
+
+# -- Unsuccessful Costume Test Cases
+
+
+def test_mb_49_costume_blank():
+    # Arrange
+    costume = ""
+    # Act & Assert
+    assert is_valid_costume_price(costume) is False
