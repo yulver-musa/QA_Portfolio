@@ -273,3 +273,10 @@ def test_mb_34_budget_blank():
     budget = ""
     # Act & Assert
     assert is_valid_budget(budget) is False
+
+
+def test_mb_35_budget_zero():
+    # Arrange
+    budget = "0"
+    # Act & Assert
+    assert is_valid_budget(budget) is False
