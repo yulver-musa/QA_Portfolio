@@ -301,3 +301,10 @@ def test_mb_38_budget_text():
     budget = "Two hundred thousand"
     # Act & Assert
     assert is_valid_budget(budget) is False
+
+
+def test_mb_39_budget_character():
+    # Arrange
+    budget = "$500"
+    # Act & Assert
+    assert is_valid_budget(budget) is False
