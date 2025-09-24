@@ -359,3 +359,10 @@ def test_mb_46_crew_negative_float():
     crew = "-24.65"
     # Act & Assert
     assert is_valid_crew_members(crew) is False
+
+
+def test_mb_47_crew_text():
+    # Arrange
+    crew = "Hundred and twenty five"
+    # Act & Assert
+    assert is_valid_crew_members(crew) is False
