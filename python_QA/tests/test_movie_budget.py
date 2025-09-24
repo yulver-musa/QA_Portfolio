@@ -325,8 +325,16 @@ def test_mb_41_crew_blank():
     # Act & Assert
     assert is_valid_crew_members(crew) is False
 
+
 def test_mb_42_crew_space():
     # Arrange
     crew = " "
+    # Act & Assert
+    assert is_valid_crew_members(crew) is False
+
+
+def test_mb_43_crew_zero():
+    # Arrange
+    crew = "0"
     # Act & Assert
     assert is_valid_crew_members(crew) is False
