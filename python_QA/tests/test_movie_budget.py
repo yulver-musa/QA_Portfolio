@@ -294,3 +294,10 @@ def test_mb_37_budget_negative_float():
     budget = "-34.9807"
     # Act & Assert
     assert is_valid_budget(budget) is False
+
+
+def test_mb_38_budget_text():
+    # Arrange
+    budget = "Two hundred thousand"
+    # Act & Assert
+    assert is_valid_budget(budget) is False
