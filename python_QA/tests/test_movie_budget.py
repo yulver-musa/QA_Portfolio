@@ -428,8 +428,15 @@ def test_mb_55_costume_char():
 # -- Unsuccessful Director Name Test Cases
 
 
-def test_mb_60_director_blank():
+def test_mb_56_director_blank():
     # Arrange
     director = ""
+    # Act & Assert
+    assert is_valid_director_name(director) is False
+
+
+def test_mb_57_director_space():
+    # Arrange
+    director = " "
     # Act & Assert
     assert is_valid_director_name(director) is False
