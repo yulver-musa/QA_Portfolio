@@ -396,3 +396,10 @@ def test_mb_51_costume_zero():
     costume = "0"
     # Act & Assert
     assert is_valid_costume_price(costume) is False
+
+
+def test_mb_52_costume_negative_integer():
+    # Arrange
+    costume = "-29"
+    # Act & Assert
+    assert is_valid_costume_price(costume) is False
