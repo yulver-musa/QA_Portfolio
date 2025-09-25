@@ -403,3 +403,10 @@ def test_mb_52_costume_negative_integer():
     costume = "-29"
     # Act & Assert
     assert is_valid_costume_price(costume) is False
+
+
+def test_mb_53_costume_negative_float():
+    # Arrange
+    costume = "341.29"
+    # Act & Assert
+    assert is_valid_costume_price(costume) is False
