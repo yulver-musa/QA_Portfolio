@@ -440,3 +440,10 @@ def test_mb_57_director_space():
     director = " "
     # Act & Assert
     assert is_valid_director_name(director) is False
+
+
+def test_mb_58_director_integer():
+    # Arrange
+    director = "123"
+    # Act & Assert
+    assert is_valid_director_name(director) is False
