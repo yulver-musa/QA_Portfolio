@@ -454,3 +454,10 @@ def test_mb_59_director_float():
     director = "20.02"
     # Act & Assert
     assert is_valid_director_name(director) is False
+
+
+def test_mb_60_director_email():
+    # Arrange
+    director = "Adam@Calvin.com"
+    # Act & Assert
+    assert is_valid_director_name(director) is False
