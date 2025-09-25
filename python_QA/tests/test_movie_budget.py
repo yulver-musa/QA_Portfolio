@@ -419,3 +419,8 @@ def test_mb_54_costume_text():
     assert is_valid_costume_price(costume) is False
 
 
+def test_mb_55_costume_char():
+    # Arrange
+    costume = "$444.44"
+    # Act & Assert
+    assert is_valid_costume_price(costume) is False
