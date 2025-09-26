@@ -468,3 +468,10 @@ def test_mb_61_director_mixed():
     director = "Brian123"
     # Act & Assert
     assert is_valid_director_name(director) is False
+
+
+def test_mb_62_director_second_mixed():
+    # Arrange
+    director = "George$Michael432"
+    # Act & Assert
+    assert is_valid_director_name(director) is False
