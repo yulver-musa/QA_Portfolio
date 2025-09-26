@@ -519,3 +519,10 @@ def test_mb_68_movie_mixed():
     director = "7 Samurai Battle"
     # Act & Assert
     assert is_valid_director_name(director) is False
+
+
+def test_mb_69_movie_email():
+    # Arrange
+    director = "movie@gmail.com"
+    # Act & Assert
+    assert is_valid_director_name(director) is False
