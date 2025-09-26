@@ -461,3 +461,10 @@ def test_mb_60_director_email():
     director = "Adam@Calvin.com"
     # Act & Assert
     assert is_valid_director_name(director) is False
+
+
+def test_mb_61_director_mixed():
+    # Arrange
+    director = "Brian123"
+    # Act & Assert
+    assert is_valid_director_name(director) is False
