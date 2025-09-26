@@ -475,3 +475,12 @@ def test_mb_62_director_second_mixed():
     director = "George$Michael432"
     # Act & Assert
     assert is_valid_director_name(director) is False
+
+# --Unsuccessful Movie Name Test Cases--
+
+
+def test_mb_63_movie_blank():
+    # Arrange
+    director = ""
+    # Act & Assert
+    assert is_valid_director_name(director) is False
