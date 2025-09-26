@@ -498,3 +498,10 @@ def test_mb_65_movie_integer():
     director = "123"
     # Act & Assert
     assert is_valid_director_name(director) is False
+
+
+def test_mb_66_movie_float():
+    # Arrange
+    director = "12.36"
+    # Act & Assert
+    assert is_valid_director_name(director) is False
