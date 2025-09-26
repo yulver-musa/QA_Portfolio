@@ -505,3 +505,10 @@ def test_mb_66_movie_float():
     director = "12.36"
     # Act & Assert
     assert is_valid_director_name(director) is False
+
+
+def test_mb_67_movie_char():
+    # Arrange
+    director = "The Movie & Show"
+    # Act & Assert
+    assert is_valid_director_name(director) is False
