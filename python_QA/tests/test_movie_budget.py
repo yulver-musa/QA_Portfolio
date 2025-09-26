@@ -512,3 +512,10 @@ def test_mb_67_movie_char():
     director = "The Movie & Show"
     # Act & Assert
     assert is_valid_director_name(director) is False
+
+
+def test_mb_68_movie_mixed():
+    # Arrange
+    director = "7 Samurai Battle"
+    # Act & Assert
+    assert is_valid_director_name(director) is False
