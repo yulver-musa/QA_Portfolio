@@ -484,3 +484,12 @@ def test_mb_63_movie_blank():
     director = ""
     # Act & Assert
     assert is_valid_director_name(director) is False
+
+
+def test_mb_64_movie_space():
+    # Arrange
+    director = " "
+    # Act & Assert
+    assert is_valid_director_name(director) is False
+
+
