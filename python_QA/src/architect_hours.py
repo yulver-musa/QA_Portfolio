@@ -3,17 +3,14 @@ def calculate_hours(projects):
     hours_per_project = 3
     return projects * hours_per_project
 
-
-import re
-
-
 # Main program
 
 
 def main():
     name_of_architect = input("Enter architect's name: ")
-    if not re.fullmatch(r"[A-Za-z\s'-]+", name_of_architect):
-        print("Error: Invalid name!")
+    allowed = set(" -'")  # space, hyphen, apostrophe
+    if not (name_of_architect.strip() and all(ch.isalpha() or ch in allowed for ch in name_of_architect)):
+        print("Error: Name of the architect must contain letters only!")
         exit(1)
 
     count_of_projects_input = input("Enter number of projects: ")
