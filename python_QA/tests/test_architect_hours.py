@@ -2,11 +2,10 @@ import pytest
 
 from architect_hours import calculate_hours
 
-import re
-
 
 def is_valid_name(name):
-    return bool(re.fullmatch(r"[A-Za-z\s'-]+", name.strip()))
+    allowed = set(" -'")  # space, hyphen, apostrophe
+    return name.strip() and all(ch.isalpha() or ch in allowed for ch in name)
 
 
 def is_valid_project_count(count_str):
