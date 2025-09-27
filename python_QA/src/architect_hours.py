@@ -3,13 +3,31 @@ def calculate_hours(projects):
     hours_per_project = 3
     return projects * hours_per_project
 
+
 # Main program
+def is_valid_name(name_of_architect: str) -> bool:
+    allowed = set(" -'")  # spaces, hyphens, apostrophes
+    return bool(
+        name_of_architect.strip()
+        and all(ch.isalpha() or ch in allowed for ch in name_of_architect)
+    )
+
+
+def is_valid_project_count(count) -> bool:
+    if isinstance(count, int):
+        return count >= 0 or count == -0  # zero and negative zero are allowed
+
+    if isinstance(count, str):
+        if count == "0" or count == "-0":
+            return True
+        return count.isdigit()  # positive integers as string
+
+    return False
 
 
 def main():
     name_of_architect = input("Enter architect's name: ")
-    allowed = set(" -'")  # space, hyphen, apostrophe
-    if not (name_of_architect.strip() and all(ch.isalpha() or ch in allowed for ch in name_of_architect)):
+    if not is_valid_name(name_of_architect):
         print("Error: Name of the architect must contain letters only!")
         exit(1)
 

@@ -1,6 +1,7 @@
 import pytest
 
-from architect_hours import calculate_hours
+import pytest
+from architect_hours import calculate_hours, is_valid_name, is_valid_project_count
 
 
 def is_valid_name(name: str) -> bool:
@@ -11,6 +12,7 @@ def is_valid_name(name: str) -> bool:
         if not (ch.isalpha() or ch in [" ", "-", "'"]):
             return False
     return True
+
 
 def is_valid_project_count(count_str):
     if count_str == "-0":
