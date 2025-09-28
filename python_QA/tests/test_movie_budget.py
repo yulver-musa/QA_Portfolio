@@ -15,13 +15,19 @@ def is_valid_costume_price(costumes):
     return isinstance(costumes, (int, float)) and costumes > 0
 
 
-def is_valid_director_name(director):
-    return isinstance(director, str) and director.strip() != ""
+def is_valid_director_name(director: str) -> bool:
+    if not isinstance(director, str) or not director.strip():
+        return False
+    allowed = set(" -'")  # spaces, hyphen, apostrophe
+    return all(ch.isalpha() or ch in allowed for ch in director)
 
 
-def is_valid_movie_name(movie):
-    return isinstance(movie, str) and movie.strip() != ""
-
+def is_valid_movie_name(movie: str) -> bool:
+    if not isinstance(movie, str) or not movie.strip():
+        return False
+    # Movies can include letters, numbers, spaces, apostrophes, hyphens, and colons (e.g. "Spider-Man 2: Homecoming")
+    allowed = set(" -':0123456789")
+    return all(ch.isalpha() or ch in allowed for ch in movie)
 
 # --Successful Budget Test Cases--
 
