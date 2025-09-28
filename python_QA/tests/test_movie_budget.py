@@ -235,7 +235,7 @@ def test_mb_29_movie_multiple_spaces():
     # Arrange
     movie = "The  Accountant"
     # Act & Assert
-    assert is_valid_movie_name(movie)
+    assert is_valid_movie_name(movie) is True
 
 
 def test_mb_30_movie_hyphen():
