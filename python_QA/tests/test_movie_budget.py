@@ -190,7 +190,7 @@ def test_mb_23_director_cyrillic():
     # Arrange
     director = "Димитър Иванов"
     # Act & Assert
-    assert is_valid_director_name(director)
+    assert is_valid_director_name(director) is True
 
 
 def test_mb_24_director_spaces():
@@ -533,3 +533,4 @@ def test_mb_70_movie_mixed_second():
     director = "Henry the 8th %89"
     # Act & Assert
     assert is_valid_director_name(director) is False
+
