@@ -197,7 +197,7 @@ def test_mb_24_director_spaces():
     # Arrange
     director = " John  Smith "
     # Act & Assert
-    assert is_valid_director_name(director)
+    assert is_valid_director_name(director) is True
 
 
 # --Movie Name successful Test Cases--
