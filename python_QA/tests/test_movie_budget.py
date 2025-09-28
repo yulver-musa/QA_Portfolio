@@ -263,7 +263,7 @@ def test_mb_33_movie_spaces():
     # Arrange
     movie = " The  Accountant "
     # Act & Assert
-    assert is_valid_movie_name(movie)
+    assert is_valid_movie_name(movie) is True
 
 # --Unsuccessful Budget Test Cases--
 
