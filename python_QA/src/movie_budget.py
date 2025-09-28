@@ -25,7 +25,9 @@ def calculate_movie_budget(movie_budget, crew_members, costume_price, director_n
         not isinstance(crew_members, int) or crew_members <= 0 or
         not isinstance(costume_price, (int, float)) or costume_price <= 0 or
         not isinstance(director_name, str) or not director_name.strip() or
-        not isinstance(movie_name, str) or not movie_name.strip()
+        not director_name.replace(" ", "").replace("-", "").replace("'", "").isalpha() or
+        not isinstance(movie_name, str) or not movie_name.strip() or
+        not movie_name.replace(" ", "").replace("-", "").replace("'", "").isalpha()
     ):
         return False, "Invalid input data provided.", None
 
