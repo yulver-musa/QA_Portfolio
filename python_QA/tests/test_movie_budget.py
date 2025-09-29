@@ -575,3 +575,20 @@ def test_mb_72_business_logic_successful():
     assert valid is True
     assert "Action! Copolla starts filming 'Good Boys' with 4000.00 leva left."
     assert difference == 4000.00
+
+
+def test_mb_73_business_logic_successful():
+    # Arrange
+    budget = 18000
+    crew_members = 100
+    costume_price = 140
+    director_name = "Cem Yilmaz"
+    movie_name = "G.O.R.A."
+    # Act
+    valid, message, difference = calculate_movie_budget(
+        budget, crew_members, costume_price, director_name, movie_name
+    )
+    # Assert
+    assert valid is True
+    assert "Action! Cem Yilmaz starts filming 'G.O.R.A.' with 2200.00 leva left."
+    assert difference == 2200.00
