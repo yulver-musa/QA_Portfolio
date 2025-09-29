@@ -563,15 +563,15 @@ def test_mb_71_business_logic_successful():
 def test_mb_72_business_logic_successful():
     # Arrange
     budget = 20000
-    crew_members = 100
+    crew_members = 140
     costume_price = 100
-    director_name = "Wingard"
-    movie_name = "Epic Battle"
+    director_name = "Copolla"
+    movie_name = "Good Boys"
     # Act
     valid, message, difference = calculate_movie_budget(
         budget, crew_members, costume_price, director_name, movie_name
     )
     # Assert
     assert valid is True
-    assert "Action! Wingard starts filming 'Epic Battle' with 8000.00 leva left."
-    assert difference == 8000.00
+    assert "Action! Copolla starts filming 'Good Boys' with 4000.00 leva left."
+    assert difference == 4000.00
