@@ -540,3 +540,21 @@ def test_mb_70_movie_mixed_second():
     # Act & Assert
     assert is_valid_director_name(director) is False
 
+# --Successful Business Logic Test Cases--
+
+
+def test_mb_71_business_logic_successful():
+    # Arrange
+    budget = 20000
+    crew_members = 100
+    costume_price = 100
+    director_name = "Wingard"
+    movie_name = "Epic Battle"
+    # Act
+    valid, message, difference = calculate_movie_budget(
+        budget, crew_members, costume_price, director_name, movie_name
+    )
+    # Assert
+    assert valid is True
+    assert "Action! Wingard starts filming 'Epic Battle' with 8000.00 leva left."
+    assert difference == 8000.00
