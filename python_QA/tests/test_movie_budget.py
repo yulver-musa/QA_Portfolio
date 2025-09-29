@@ -614,8 +614,8 @@ def test_mb_74_business_logic_successful():
 def test_mb_75_business_logic_successful():
     # Arrange
     budget = 20000
-    crew_members = 100
-    costume_price = 100
+    crew_members = 60
+    costume_price = 120
     director_name = "Wingard"
     movie_name = "Epic Battle"
     # Act
