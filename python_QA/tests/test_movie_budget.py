@@ -624,5 +624,5 @@ def test_mb_75_business_logic_successful():
     )
     # Assert
     assert valid is True
-    assert "Action! Wingard starts filming 'Epic Battle' with 8000.00 leva left."
+    assert "Action! Wingard starts filming 'Epic Battle' with 10800.00 leva left."
     assert difference == 8000.00
