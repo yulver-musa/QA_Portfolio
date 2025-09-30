@@ -626,3 +626,13 @@ def test_mb_75_business_logic_successful():
     assert valid is True
     assert "Action! Wingard starts filming 'Epic Battle' with 10800.00 leva left."
     assert difference == 10800.00
+
+
+def test_mb_76_business_logic_successful():
+    # Arrange
+    budget = 20000
+    crew_members = 150
+    costume_price = 100
+    director_name = "Nolan"
+    movie_name = "Installer"
+    # Act
