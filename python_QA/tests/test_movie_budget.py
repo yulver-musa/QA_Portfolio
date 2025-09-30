@@ -634,9 +634,12 @@ def test_mb_76_business_logic_successful():
     crew_members = 150
     costume_price = 100
     director_name = "Nolan"
-    movie_name = "Installer"
+    movie_name = "Interstellar"
     # Act
     valid, message, difference = calculate_movie_budget(
         budget, crew_members, costume_price, director_name, movie_name
     )
     # Assert
+    assert valid is True
+    assert "Action! Nolan stats filming 'Interstellar' with 3000.00 leva left."
+    assert difference == 3000.00
