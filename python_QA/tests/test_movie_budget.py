@@ -652,3 +652,7 @@ def test_mb_77_business_logic_successful():
     costume_price = 100
     director_name = "Nolan"
     movie_name = "Interstellar"
+    # Act
+    valid, message, difference = calculate_movie_budget(
+        budget, crew_members, costume_price, director_name, movie_name
+    )
