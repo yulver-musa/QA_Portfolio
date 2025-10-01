@@ -677,3 +677,12 @@ def test_mb_78_business_logic_successful():
     assert valid is True
     assert "Action! Nolan starts filming 'Interstellar' with 0.00 leva left."
     assert difference == 0.00
+
+
+def test_mb_79_business_logic_successful():
+    # Arrange
+    budget = 20000
+    crew_members = 300
+    costume_price = 15
+    director_name = "Ridley Scot"
+    movie_name = "Gladiator"
