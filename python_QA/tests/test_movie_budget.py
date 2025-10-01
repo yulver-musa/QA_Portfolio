@@ -675,5 +675,5 @@ def test_mb_78_business_logic_successful():
     )
     # Assert
     assert valid is True
-    assert "Action! Nolan starts filmin 'Interstellar' with 0.00 leva left."
+    assert "Action! Nolan starts filming 'Interstellar' with 0.00 leva left."
     assert difference == 0.00
