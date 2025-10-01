@@ -692,4 +692,5 @@ def test_mb_79_business_logic_successful():
     )
     # Assert
     assert valid is True
-    assert
+    assert "Action! Ridley Scot starts filming 'Gladiator' with 13.500 leva left."
+    assert difference == 13500.00
