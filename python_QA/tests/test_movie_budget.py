@@ -687,6 +687,9 @@ def test_mb_79_business_logic_successful():
     director_name = "Ridley Scot"
     movie_name = "Gladiator"
     # Act
-    valid, message, defference = calculate_movie_budget(
+    valid, message, difference = calculate_movie_budget(
         budget, crew_members, costume_price, director_name, movie_name
     )
+    # Assert
+    assert valid is True
+    assert
