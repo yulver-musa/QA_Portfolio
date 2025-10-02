@@ -700,3 +700,4 @@ def test_mb_80_business_logic_successful():
     # Arrange
     budget = 20000
     crew_members = 50
+    costume_price = 350
