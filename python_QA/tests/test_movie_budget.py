@@ -708,3 +708,4 @@ def test_mb_80_business_logic_successful():
         budget, crew_members, costume_price, director_name, movie_name
     )
     # Assert
+    assert valid is True
