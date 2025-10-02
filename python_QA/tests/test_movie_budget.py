@@ -701,3 +701,6 @@ def test_mb_80_business_logic_successful():
     budget = 20000
     crew_members = 50
     costume_price = 350
+    director_name = "Mel Gibson"
+    movie_name = "The Braveheart"
+    # Act
