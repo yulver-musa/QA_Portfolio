@@ -709,3 +709,4 @@ def test_mb_80_business_logic_successful():
     )
     # Assert
     assert valid is True
+    assert "Action! Mel Gibson starts filming 'The Braveheart' with 500.00 leva left."
