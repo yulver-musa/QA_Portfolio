@@ -697,3 +697,6 @@ def test_mb_79_business_logic_successful():
 
 
 def test_mb_80_business_logic_successful():
+    # Arrange
+    budget = 20000
+    crew_members = 50
