@@ -704,3 +704,7 @@ def test_mb_80_business_logic_successful():
     director_name = "Mel Gibson"
     movie_name = "The Braveheart"
     # Act
+    valid, message, difference = calculate_movie_budget(
+        budget, crew_members, costume_price, director_name, movie_name
+    )
+    # Assert
