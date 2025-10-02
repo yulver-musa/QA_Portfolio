@@ -694,3 +694,6 @@ def test_mb_79_business_logic_successful():
     assert valid is True
     assert "Action! Ridley Scot starts filming 'Gladiator' with 13.500 leva left."
     assert difference == 13500.00
+
+
+def test_mb_80_business_logic_successful():
