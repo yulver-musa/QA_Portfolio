@@ -727,3 +727,4 @@ def test_mb_81_business_logic_successful():
     # Assert
     assert valid is True
     assert "Not enough money! Gibbon needs 1000.00 leva more for 'Epic War'."
+    assert difference == 1000.00
