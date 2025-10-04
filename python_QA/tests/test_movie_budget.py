@@ -711,3 +711,7 @@ def test_mb_80_business_logic_successful():
     assert valid is True
     assert "Action! Mel Gibson starts filming 'The Braveheart' with 500.00 leva left."
     assert difference == 500.00
+
+
+def test_mb_81_business_logic_successful():
+    # Arrange
