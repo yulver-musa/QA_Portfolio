@@ -725,3 +725,5 @@ def test_mb_81_business_logic_successful():
         budget, crew_members, costume_price, director_name, movie_name
     )
     # Assert
+    assert valid is True
+    assert "Not enough money! Gibbon needs 1000.00 leva more for 'Epic War'."
