@@ -718,3 +718,5 @@ def test_mb_81_business_logic_successful():
     budget = 10000
     crew_members = 100
     costume_price = 100
+    director_name = "Gibbon"
+    movie_name = "Epic War"
