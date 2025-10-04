@@ -724,3 +724,4 @@ def test_mb_81_business_logic_successful():
     valid, message, difference = calculate_movie_budget(
         budget, crew_members, costume_price, director_name, movie_name
     )
+    # Assert
