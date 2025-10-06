@@ -762,3 +762,20 @@ def test_mb_83_business_logic_successful():
     assert valid is True
     assert "Not enough money! Mel Gibson needs 700.00 leva more for 'The Patriot'."
     assert difference == 700.00
+
+
+def test_mb_84_business_logic_successful():
+    # Arrange
+    budget = 5000
+    crew_members = 100
+    costume_price = 99.99
+    director_name = "Nolan"
+    movie_name = "Batman Begins"
+    # Act
+    valid, message, difference = calculate_movie_budget(
+        budget, crew_members, costume_price, director_name, movie_name
+    )
+    # Assert
+    assert valid is True
+    assert "Not enough money! Nolan needs 5499.00 leva more for 'Batman Begins'."
+    assert difference == 5499.00
