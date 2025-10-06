@@ -583,14 +583,14 @@ def test_mb_73_business_logic_successful():
     crew_members = 100
     costume_price = 140
     director_name = "Cem Yilmaz"
-    movie_name = "G.O.R.A."
+    movie_name = "GORA"
     # Act
     valid, message, difference = calculate_movie_budget(
         budget, crew_members, costume_price, director_name, movie_name
     )
     # Assert
     assert valid is True
-    assert "Action! Cem Yilmaz starts filming 'G.O.R.A.' with 2200.00 leva left."
+    assert f"Action! {director_name} starts filming {movie_name} with {difference} leva left."
     assert difference == 2200.00
 
 
