@@ -600,7 +600,7 @@ def test_mb_74_business_logic_successful():
     crew_members = 100
     costume_price = 80
     director_name = "George Orwel"
-    movie_name = "1984"
+    movie_name = "Animal Farm"
     # Act
     valid, message, difference = calculate_movie_budget(
         budget, crew_members, costume_price, director_name, movie_name
