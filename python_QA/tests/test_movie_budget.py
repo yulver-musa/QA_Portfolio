@@ -796,3 +796,13 @@ def test_mb_85_business_logic_successful():
     assert valid is True
     assert "Not enough money! Scot needs 2339.01 leva more for 'Napoleon'."
     assert difference == 2339.01
+
+
+def test_mb_86_business_logic_unsuccessful():
+    # Arrange
+    budget = 4000
+    crew_members = 99.99
+    costume_price = 60
+    director_name = "Puso"
+    movie_name = "The Godfather"
+    # Act
