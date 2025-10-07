@@ -806,3 +806,6 @@ def test_mb_86_business_logic_unsuccessful():
     director_name = "Puso"
     movie_name = "The Godfather"
     # Act
+    valid, message, difference = calculate_movie_budget(
+        budget, crew_members, costume_price, director_name, movie_name
+    )
