@@ -828,3 +828,13 @@ def test_mb_87_business_logic_unsuccessful():
     # Assert
     assert valid is False
     assert "Invalid input type. Please enter numbers where required."
+
+
+def test_mb_88_business_logic_unsuccessful():
+    # Arrange
+    budget = 1000
+    crew_members = -100
+    costume_price = 100
+    director_name = "Nolan"
+    movie_name = "Memento"
+    # Act
