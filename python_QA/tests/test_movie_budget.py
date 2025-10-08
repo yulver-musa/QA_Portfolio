@@ -869,4 +869,8 @@ def test_mb_90_business_logic_unsuccessful():
     costume_price = 100
     director_name = " "
     movie_name = "Nemo2"
-
+    # Act
+    valid, message, difference = calculate_movie_budget(
+        budget, crew_members, costume_price, director_name, movie_name
+    )
+    # Assert
