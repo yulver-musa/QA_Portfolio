@@ -896,3 +896,9 @@ def test_mb_91_business_logic_unsuccessful():
 
 def test_mb_92_business_logic_unsuccessful():
     # Arrange
+    budget = 1000
+    crew_members = 100
+    costume_price = 100
+    director_name = "Buttler"
+    movie_name = ""
+    # Act
