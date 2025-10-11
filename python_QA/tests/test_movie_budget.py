@@ -990,3 +990,8 @@ def test_mb_97_business_logic_unsuccessful():
 
 def test_mb_98_business_logic_unsuccessful():
     # Arrange
+    budget = 1000
+    crew_members = 15.51
+    costume_price = 20
+    director_name = "Nolan"
+    movie_name = " "
