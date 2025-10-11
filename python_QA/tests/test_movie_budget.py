@@ -986,3 +986,7 @@ def test_mb_97_business_logic_unsuccessful():
     # Assert
     assert valid is False
     assert "Invalid input type. Please enter numbers where required."
+
+
+def test_mb_98_business_logic_unsuccessful():
+    # Arrange
