@@ -995,3 +995,7 @@ def test_mb_98_business_logic_unsuccessful():
     costume_price = 20
     director_name = "Nolan"
     movie_name = " "
+    # Act
+    valid, message, difference = calculate_movie_budget(
+        budget, crew_members, costume_price, director_name, movie_name
+    )
