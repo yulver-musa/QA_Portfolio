@@ -961,3 +961,6 @@ def test_mb_96_business_logic_unsuccessful():
     budget = 1000
     crew_members = 123.321
     costume_price = 10.99
+    director_name = " "
+    movie_name = "Titanic"
+    # Act
