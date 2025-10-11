@@ -982,3 +982,6 @@ def test_mb_97_business_logic_unsuccessful():
     valid, message, difference = calculate_movie_budget(
         budget, crew_members, costume_price, director_name, movie_name
     )
+    # Assert
+    assert valid is False
+    assert "Invalid input type. Please enter numbers where required."
