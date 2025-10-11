@@ -1012,3 +1012,7 @@ def test_mb_99_business_logic_unsuccessful():
     director_name = 0
     movie_name = ""
     # Act
+    valid, message, difference = calculate_movie_budget(
+        budget, crew_members, costume_price, director_name, movie_name
+    )
+    # Assert
