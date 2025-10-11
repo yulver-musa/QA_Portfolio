@@ -943,3 +943,8 @@ def test_mb_94_business_logic_unsuccessful():
 
 def test_mb_95_business_logic_unsuccessful():
     # Arrange
+    budget = 1000
+    crew_members = 100.001
+    costume_price = 10.01
+    director_name = ""
+    movie_name = ""
