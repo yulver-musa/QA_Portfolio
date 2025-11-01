@@ -1,5 +1,5 @@
 Title	Test Case ID	Input Type	Test Input	Expected Result	Notes	Test Result
-Successful Test Case #1	AH-01	Name	John	Success	Simple first name	
+Successful Test Case #1	MB-01	Budget	500000	Successful	Integer - High	
 Successful Test Case #2	AH-02	Name	John 	Success	Trailing space should be ignored	
 Successful Test Case #3	AH-03	Name	John Anderson	Success	First and last name	
 Successful Test Case #4	AH-04	Name	John Anderson 	Success	Trailing space should be ignored	
