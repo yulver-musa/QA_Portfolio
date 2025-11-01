@@ -21,7 +21,7 @@ Successful Test Case #19	MB-19	Director	Henry O'Brian	Successful	Name with apost
 Successful Test Case #20	MB-20	Director	John  	Successful	First name with tailing space	
 Successful Test Case #21	MB-21	Director	  John	Successful	First name with leading space	
 Successful Test Case #22	MB-22	Director	John  Smith	Successful	First name and last name with multiple spaces between	
-Successful Test Case #7	MB-07	Crew	12	Successful	Integer - Medium	
+Successful Test Case #23	MB-23	Director	Димитър Иванов	Successful	Name in Cyrilic	
 Successful Test Case #8	MB-08	Crew	222	Successful	Integer - High	
 Successful Test Case #1	MB-01	Budget	500000	Successful	Integer - High	
 Successful Test Case #2	MB-02	Budget	150000.15 	Successful	Float - High	
