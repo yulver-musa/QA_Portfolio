@@ -1,4 +1,3 @@
-
 | Title                         | Test Case ID | Input Type     | Test Input        | Expected Result | Notes                            | Test Result |
 | ----------------------------- | ------------ | -------------- | ----------------- | --------------- | -------------------------------- | ----------- |
 | Valid Budget Positive Float   | MB-01        | movie\_budget  | 100000.00         | Success         | Budget > 0                       |        |
@@ -26,3 +25,15 @@
 | Empty Movie Name          | MN-03        | movie\_name    | ""         | Fail  | Cannot be empty      | Fail        |
 | Whitespace Movie Name     | MN-04        | movie\_name    | "   "      | Fail  | Only spaces invalid  | Fail        |
 | Non-string Movie Name     | MN-05        | movie\_name    | 5678       | Fail  | Wrong type           | Fail        |
+
+
+Title	Test Case ID	Input Type	Test Input	Expected Result	Notes	Test Result
+Successful Test Case #1	AH-01	Name	John	Success	Simple first name	
+Successful Test Case #2	AH-02	Name	John 	Success	Trailing space should be ignored	
+Successful Test Case #3	AH-03	Name	John Anderson	Success	First and last name	
+Successful Test Case #4	AH-04	Name	John Anderson 	Success	Trailing space should be ignored	
+Successful Test Case #5	AH-05	Name	 John Anderson	Success	Leading space should be ignored	
+Successful Test Case #6	AH-06	Name	John   Anderson	Success	Multiple spaces inside the name should be ignored	
+Successful Test Case #7	AH-07	Name	Anne-Marie Muller	Success	First and last name with hyphen	
+Successful Test Case #8	AH-08	Name	Henry O'Brian	Success	First and last name with apostrophe	
+Successful Test Case #9	AH-09	Name	Димитър Иванов	Success	First and last name in Cyrillic letters	
