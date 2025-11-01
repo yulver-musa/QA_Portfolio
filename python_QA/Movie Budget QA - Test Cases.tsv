@@ -2,9 +2,13 @@ Title	Test Case ID	Input Type	Test Input	Expected Result	Notes	Test Result
 Successful Test Case #1	MB-01	Budget	500000	Successful	Integer - High	
 Successful Test Case #2	MB-02	Budget	150000.15 	Successful	Float - High	
 Successful Test Case #3	MB-03	Budget	20	Successful	Integer - Low	
-Successful Test Case #4	AH-04	Name	John Anderson 	Success	Trailing space should be ignored	
-Successful Test Case #5	AH-05	Name	 John Anderson	Success	Leading space should be ignored	
-Successful Test Case #6	AH-06	Name	John   Anderson	Success	Multiple spaces inside the name should be ignored	
-Successful Test Case #7	AH-07	Name	Anne-Marie Muller	Success	First and last name with hyphen	
-Successful Test Case #8	AH-08	Name	Henry O'Brian	Success	First and last name with apostrophe	
-Successful Test Case #9	AH-09	Name	Димитър Иванов	Success	First and last name in Cyrillic letters	
+Successful Test Case #4	MB-04	Budget	0.50 	Successful	Float - Low	
+Successful Test Case #5	MB-05	Budget	 1234.65	Successful	Float - Medium	
+Successful Test Case #6	MB-06	Budget	999	Successful	Integer - Medium	
+Successful Test Case #7	MB-07	Crew	12	Successful	Integer - Medium	
+Successful Test Case #8	MB-08	Crew	222	Successful	Integer - High	
+Successful Test Case #9	MB-09	Crew	2	Successful	Integer - Low
+Successful Test Case #10 MB-10 Costume 150 Successful Integer - Medium
+Successful Test Case #11 MB-11 Costume 123.34 Successful Float - Medium
+Successful Test Case #12 MB-12 Costume 60 Successful Integer - Low
+
