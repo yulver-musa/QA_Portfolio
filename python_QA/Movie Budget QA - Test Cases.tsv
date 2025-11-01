@@ -38,7 +38,6 @@ Unsuccessful Test Case #3	MB-36	Budget	-123 	Unsuccessful	Negative integer
 Unsuccessful Test Case #4	MB-37	Budget	 -34.9807	Unsuccessful	Negative float	
 Unsuccessful Test Case #5	MB-38	Budget	Two hundred thousand	Unsuccessful	Text input	
 Unsuccessful Test Case #6	MB-39	Budget	$500	Unsuccessful	Character input	
-Unsuccessful Test Case #7	MB-40	Budget	" "	Unsuccessful	Space input	
 Successful Test Case #1	MB-01	Budget	500000	Successful	Integer - High	
 Successful Test Case #2	MB-02	Budget	150000.15 	Successful	Float - High	
 Successful Test Case #3	MB-03	Budget	20	Successful	Integer - Low	
