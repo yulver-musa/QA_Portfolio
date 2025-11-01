@@ -1,7 +1,7 @@
 Title	Test Case ID	Input Type	Test Input	Expected Result	Notes	Test Result
 Successful Test Case #1	MB-01	Budget	500000	Successful	Integer - High	
-Successful Test Case #2	AH-02	Name	John 	Success	Trailing space should be ignored	
-Successful Test Case #3	AH-03	Name	John Anderson	Success	First and last name	
+Successful Test Case #2	MB-02	Budget	150000.15 	Successful	Float - High	
+Successful Test Case #3	MB-03	Budget	20	Successful	Integer - Low	
 Successful Test Case #4	AH-04	Name	John Anderson 	Success	Trailing space should be ignored	
 Successful Test Case #5	AH-05	Name	 John Anderson	Success	Leading space should be ignored	
 Successful Test Case #6	AH-06	Name	John   Anderson	Success	Multiple spaces inside the name should be ignored	
