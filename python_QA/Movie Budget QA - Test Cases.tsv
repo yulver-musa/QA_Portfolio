@@ -32,7 +32,6 @@ Successful Test Case #30	MB-30	Movie	The Diary of Anne-Marie	Successful	Includin
 Successful Test Case #31	MB-31	Movie	The Life of Henry O'Brian	Successful	Including apostrophe	
 Successful Test Case #32	MB-32	Movie	Оркестър Без Име	Successful	In Cyrilic	
 Successful Test Case #33	MB-33	Movie	 The  Accountant 	Successful	Leading, tailing, and in between spaces	
-Unsuccessful Test Case #1	MB-34	Budget	"" 	Unsuccessful	Blank input	
 Successful Test Case #1	MB-01	Budget	500000	Successful	Integer - High	
 Successful Test Case #2	MB-02	Budget	150000.15 	Successful	Float - High	
 Successful Test Case #3	MB-03	Budget	20	Successful	Integer - Low	
