@@ -7,8 +7,3 @@ Successful Test Case #5	MB-05	Budget	 1234.65	Successful	Float - Medium
 Successful Test Case #6	MB-06	Budget	999	Successful	Integer - Medium	
 Successful Test Case #7	MB-07	Crew	12	Successful	Integer - Medium	
 Successful Test Case #8	MB-08	Crew	222	Successful	Integer - High	
-Successful Test Case #9	MB-09	Crew	2	Successful	Integer - Low
-Successful Test Case #10 MB-10 Costume 150 Successful Integer - Medium
-Successful Test Case #11 MB-11 Costume 123.34 Successful Float - Medium
-Successful Test Case #12 MB-12 Costume 60 Successful Integer - Low
-
