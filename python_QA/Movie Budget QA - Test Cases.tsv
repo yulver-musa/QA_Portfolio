@@ -22,16 +22,16 @@ Successful Test Case #20	MB-20	Director	John  	Successful	First name with tailin
 Successful Test Case #21	MB-21	Director	  John	Successful	First name with leading space	
 Successful Test Case #22	MB-22	Director	John  Smith	Successful	First name and last name with multiple spaces between	
 Successful Test Case #23	MB-23	Director	Димитър Иванов	Successful	Name in Cyrilic	
-Successful Test Case #8	MB-08	Crew	222	Successful	Integer - High	
-Successful Test Case #1	MB-01	Budget	500000	Successful	Integer - High	
-Successful Test Case #2	MB-02	Budget	150000.15 	Successful	Float - High	
-Successful Test Case #3	MB-03	Budget	20	Successful	Integer - Low	
-Successful Test Case #4	MB-04	Budget	0.50 	Successful	Float - Low	
-Successful Test Case #5	MB-05	Budget	 1234.65	Successful	Float - Medium	
-Successful Test Case #6	MB-06	Budget	999	Successful	Integer - Medium	
-Successful Test Case #7	MB-07	Crew	12	Successful	Integer - Medium	
-Successful Test Case #8	MB-08	Crew	222	Successful	Integer - High	
-Successful Test Case #1	MB-01	Budget	500000	Successful	Integer - High	
+Successful Test Case #24	MB-24	Director	 John  Smith 	Successful	Leading, tailing, and in between spaces	
+Successful Test Case #25	MB-25	Movie	Accountant	Successful	One word	
+Successful Test Case #26	MB-26	Movie	 Accountant 	Successful	Leading space	
+Successful Test Case #27	MB-27	Movie	Accountant 	Successful	Tailing space	
+Successful Test Case #28	MB-28	Movie	The Accountant 	Successful	Two words	
+Successful Test Case #29	MB-29	Movie	 The  Accountant	Successful	Multiple spaces in between	
+Successful Test Case #30	MB-30	Movie	The Diary of Anne-Marie	Successful	Including hyphen	
+Successful Test Case #31	MB-31	Movie	The Life of Henry O'Brian	Successful	Including apostrophe	
+Successful Test Case #32	MB-32	Movie	Оркестър Без Име	Successful	In Cyrilic	
+Successful Test Case #33	MB-33	Movie	 The  Accountant 	Successful	Leading, tailing, and in between spaces	
 Successful Test Case #2	MB-02	Budget	150000.15 	Successful	Float - High	
 Successful Test Case #3	MB-03	Budget	20	Successful	Integer - Low	
 Successful Test Case #4	MB-04	Budget	0.50 	Successful	Float - Low	
