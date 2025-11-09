@@ -47,13 +47,13 @@ Unsuccessful Test Case #12	MB-45	crew	-15	Unsuccessful	Negative integer
 Unsuccessful Test Case #13	MB-46	Crew	-24.65	Unsuccessful	Negative float	
 Unsuccessful Test Case #14	MB-47	Crew	Hundred and twenty five	Unsuccessful	Text input	
 Unsuccessful Test Case #15	MB-48	Crew	$55.99	Unsuccessful	Character input	
-Unsuccessful Test Case #2	MB-35	Budget	0	Unsuccessful	Zero input	
-Unsuccessful Test Case #1	MB-34	Budget	""	Unsuccessful	Blank input	
-Unsuccessful Test Case #2	MB-35	Budget	0	Unsuccessful	Zero input	
-Unsuccessful Test Case #3	MB-36	Budget	-123 	Unsuccessful	Negative integer	
-Unsuccessful Test Case #4	MB-37	Budget	 -34.9807	Unsuccessful	Negative float	
-Unsuccessful Test Case #5	MB-38	Budget	Two hundred thousand	Unsuccessful	Text input	
-Unsuccessful Test Case #6	MB-39	Budget	$500	Unsuccessful	Character input	
+Unsuccessful Test Case #16	MB-49	Costume	""	Unsuccessful	Empty input	
+Unsuccessful Test Case #17	MB-50	Costume	" "	Unsuccessful	Blank input	
+Unsuccessful Test Case #18	MB-51	Costume	0	Unsuccessful	Zero input	
+Unsuccessful Test Case #19	MB-52	Costume	-29 	Unsuccessful	Negative integer	
+Unsuccessful Test Case #20	MB-53	Costume	 -341.29	Unsuccessful	Negative float	
+Unsuccessful Test Case #21	MB-54	Costume	Fifty five	Unsuccessful	Text input	
+Unsuccessful Test Case #22	MB-55	Costume	$444.44	Unsuccessful	Character input	
 Unsuccessful Test Case #7	MB-40	Budget	" "	Unsuccessful	Space input	
 Unsuccessful Test Case #8	MB-41	Crew	""	Unsuccessful	Blank input	
 Unsuccessful Test Case #9	MB-42	Crew	" "	Unsuccessful	Space input	
