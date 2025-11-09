@@ -87,8 +87,8 @@ Successful Business Logic Test Case #15	MB-85	Business Logic	 Budget: 4000; Crew
 Unsuccessful Business Logic Test Case #1	MB-86	Business Logic	 Budget: 4000; Crew Members: 99.99; Costume Price: 60; Director: Puso; Movie: The Godfather;	Unsuccessful	Business logic test with wrong input.	
 Unsuccessful Business Logic Test Case #2	MB-87	Business Logic	 Budget: 2000; Crew Members: 0; Costume Price: 10; Director: Cameron; Movie: Avatar;	Unsuccessful	Business logic test with wrong input.	
 Unsuccessful Business Logic Test Case #3	MB-88	Business Logic	 Budget: 1000; Crew Members: -100; Costume Price: 100; Director: Nolan; Movie: Memento;	Unsuccessful	Business logic test with wrong input.	
-Unsuccessful Business Logic Test Case #4	MB-89	Business Logic	 Budget: 1000; Crew Members: 100; Costume Price: 100; Director: ; Movie: Memento;	Unsuccessful	Business logic test with wrong input.	
-Unsuccessful Business Logic Test Case #1	MB-86	Business Logic	 Budget: 4000; Crew Members: 99.99; Costume Price: 60; Director: Puso; Movie: The Godfather;	Unsuccessful	Business logic test with wrong input.	
+Unsuccessful Business Logic Test Case #4	MB-89	Business Logic	 Budget: 1000; Crew Members: 100; Costume Price: 100; Director: ; Movie: Nemo;	Unsuccessful	Business logic test with wrong input.	
+Unsuccessful Business Logic Test Case #5	MB-90	Business Logic	 Budget: 1000; Crew Members: 100; Costume Price: 100; Director: ; Movie: Nemo2;	Unsuccessful	Business logic test with wrong input.	
 Unsuccessful Business Logic Test Case #2	MB-87	Business Logic	 Budget: 2000; Crew Members: 0; Costume Price: 10; Director: Cameron; Movie: Avatar;	Unsuccessful	Business logic test with wrong input.	
 Unsuccessful Business Logic Test Case #3	MB-88	Business Logic	 Budget: 1000; Crew Members: -100; Costume Price: 100; Director: Nolan; Movie: Memento;	Unsuccessful	Business logic test with wrong input.	
 Unsuccessful Business Logic Test Case #4	MB-89	Business Logic	 Budget: 1000; Crew Members: 100; Costume Price: 100; Director: ; Movie: Memento;	Unsuccessful	Business logic test with wrong input.	
