@@ -73,14 +73,17 @@ Successful Business Logic Test Case #1	MB-71	Business Logic	 Budget: 20000; Crew
 Successful Business Logic Test Case #2	MB-72	Business Logic	 Budget: 20000; Crew Members: 140; Costume Price: 100; Director: Copolla; Movie: Good Boys;	Successful	Business logic test with simple input.	
 Successful Business Logic Test Case #3	MB-73	Business Logic	 Budget: 18000; Crew Members: 100; Costume Price: 140; Director: Cem Yilmaz; Movie: Gora;	Successful	Business logic test with simple input.	
 Successful Business Logic Test Case #4	MB-74	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 80; Director: George Orwel; Movie: Animal Farm;	Successful	Business logic test with simple input.	
-Successful Business Logic Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
-Successful Business Logic Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
-Successful Business Logic Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
-Successful Business Logic Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
-Successful Business Logic Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
-Successful Business Logic Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
-Successful Business Logic Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
-
+Successful Business Logic Test Case #5	MB-75	Business Logic	 Budget: 20000; Crew Members: 60; Costume Price: 120; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #6	MB-76	Business Logic	 Budget: 20000; Crew Members: 150; Costume Price: 100; Director: Nolan; Movie: Interstellar;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #7	MB-77	Business Logic	 Budget: 20000; Crew Members: 151; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #8	MB-78	Business Logic	 Budget: 20000; Crew Members: 200; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #9	MB-79	Business Logic	 Budget: 20000; Crew Members: 300; Costume Price: 15; Director: Ridley Scot; Movie: Gladiator;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #10	MB-80	Business Logic	 Budget: 20000; Crew Members: 50; Costume Price: 50; Director: Mel Gibson; Movie: The Patriot;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #11	MB-81	Business Logic	 Budget: 10000; Crew Members: 100; Costume Price: 100; Director: Gibbon; Movie: Epic War;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #12	MB-82	Business Logic	 Budget: 5000; Crew Members: 100; Costume Price: 100; Director: Cohen; Movie: Borat;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #13	MB-83	Business Logic	 Budget: 20000; Crew Members: 50; Costume Price: 50; Director: Mel Gibson; Movie: The Patriot;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #14	MB-84	Business Logic	 Budget: 5000; Crew Members: 100; Costume Price: 99.99; Director: Nolan; Movie: Batman Begins;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #15	MB-85	Business Logic	 Budget: 4000; Crew Members: 99; Costume Price: 59.99; Director: Scot; Movie: Napoleon;	Successful	Business logic test with simple input.	
 Unsuccessful Test Case #6	MB-39	Budget	$500	Unsuccessful	Character input	
 Unsuccessful Test Case #7	MB-40	Budget	" "	Unsuccessful	Space input	
 Unsuccessful Test Case #8	MB-41	Crew	""	Unsuccessful	Blank input	
