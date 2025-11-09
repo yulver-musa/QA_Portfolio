@@ -556,7 +556,7 @@ def test_mb_71_business_logic_successful():
     )
     # Assert
     assert valid is True
-    assert "Action! Wingard starts filming 'Epic Battle' with 8000.00 leva left."
+    assert "Action! Wingard starts filming 'Epic Battle' with 8000.00 dollars left."
     assert difference == 8000.00
 
 
@@ -573,7 +573,7 @@ def test_mb_72_business_logic_successful():
     )
     # Assert
     assert valid is True
-    assert "Action! Copolla starts filming 'Good Boys' with 4000.00 leva left."
+    assert "Action! Copolla starts filming 'Good Boys' with 4000.00 dollars left."
     assert difference == 4000.00
 
 
@@ -590,7 +590,7 @@ def test_mb_73_business_logic_successful():
     )
     # Assert
     assert valid is True
-    assert f"Action! {director_name} starts filming {movie_name} with {difference} leva left."
+    assert f"Action! {director_name} starts filming {movie_name} with {difference} dollars left."
     assert difference == 2200.00
 
 
@@ -607,7 +607,7 @@ def test_mb_74_business_logic_successful():
     )
     # Assert
     assert valid is True
-    assert "Action! George Orwel starts filming '1984' with 10000.00 leva left."
+    assert "Action! George Orwel starts filming '1984' with 10000.00 dollars left."
     assert difference == 10000.00
 
 
@@ -624,7 +624,7 @@ def test_mb_75_business_logic_successful():
     )
     # Assert
     assert valid is True
-    assert "Action! Wingard starts filming 'Epic Battle' with 10800.00 leva left."
+    assert "Action! Wingard starts filming 'Epic Battle' with 10800.00 dollars left."
     assert difference == 10800.00
 
 
@@ -641,7 +641,7 @@ def test_mb_76_business_logic_successful():
     )
     # Assert
     assert valid is True
-    assert "Action! Nolan starts filming 'Interstellar' with 3000.00 leva left."
+    assert "Action! Nolan starts filming 'Interstellar' with 3000.00 dollars left."
     assert difference == 3000.00
 
 
@@ -658,7 +658,7 @@ def test_mb_77_business_logic_successful():
     )
     # Assert
     assert valid is True
-    assert "Action! Nolan starts filming 'Interstellar' with 4410.00 leva left."
+    assert "Action! Nolan starts filming 'Interstellar' with 4410.00 dollars left."
     assert difference == 4410.00
 
 
@@ -675,7 +675,7 @@ def test_mb_78_business_logic_successful():
     )
     # Assert
     assert valid is True
-    assert "Action! Nolan starts filming 'Interstellar' with 0.00 leva left."
+    assert "Action! Nolan starts filming 'Interstellar' with 0.00 dollars left."
     assert difference == 0.00
 
 
@@ -692,7 +692,7 @@ def test_mb_79_business_logic_successful():
     )
     # Assert
     assert valid is True
-    assert "Action! Ridley Scot starts filming 'Gladiator' with 13950.00 leva left."
+    assert "Action! Ridley Scot starts filming 'Gladiator' with 13950.00 dollars left."
     assert difference == 13950.00
 
 
@@ -709,7 +709,7 @@ def test_mb_80_business_logic_successful():
     )
     # Assert
     assert valid is True
-    assert "Action! Mel Gibson starts filming 'The Braveheart' with 500.00 leva left."
+    assert "Action! Mel Gibson starts filming 'The Braveheart' with 500.00 dollars left."
     assert difference == 500.00
 
 
@@ -726,7 +726,7 @@ def test_mb_81_business_logic_successful():
     )
     # Assert
     assert valid is True
-    assert "Not enough money! Gibbon needs 1000.00 leva more for 'Epic War'."
+    assert "Not enough money! Gibbon needs 1000.00 dollars more for 'Epic War'."
     assert difference == 1000.00
 
 
@@ -743,7 +743,7 @@ def test_mb_82_business_logic_successful():
     )
     # Assert
     assert valid is True
-    assert "Not enough money! Cohen needs 5500.00 leva more for 'Borat'."
+    assert "Not enough money! Cohen needs 5500.00 dollars more for 'Borat'."
     assert difference == 5500.00
 
 
@@ -760,7 +760,7 @@ def test_mb_83_business_logic_successful():
     )
     # Assert
     assert valid is True
-    assert "Not enough money! Mel Gibson needs 700.00 leva more for 'The Patriot'."
+    assert "Not enough money! Mel Gibson needs 700.00 dollars more for 'The Patriot'."
     assert difference == 700.00
 
 
@@ -777,7 +777,7 @@ def test_mb_84_business_logic_successful():
     )
     # Assert
     assert valid is True
-    assert "Not enough money! Nolan needs 5499.00 leva more for 'Batman Begins'."
+    assert "Not enough money! Nolan needs 5499.00 dollars more for 'Batman Begins'."
     assert difference == 5499.00
 
 
@@ -794,7 +794,7 @@ def test_mb_85_business_logic_successful():
     )
     # Assert
     assert valid is True
-    assert "Not enough money! Scot needs 2339.01 leva more for 'Napoleon'."
+    assert "Not enough money! Scot needs 2339.01 dollars more for 'Napoleon'."
     assert difference == 2339.01
 
 
