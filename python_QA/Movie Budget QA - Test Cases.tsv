@@ -1,0 +1,101 @@
+Title	Test Case ID	Input Type	Test Input	Expected Result	Notes	Test Result
+Successful Test Case #1	MB-01	Budget	500000	Successful	Integer - High	
+Successful Test Case #2	MB-02	Budget	150000.15 	Successful	Float - High	
+Successful Test Case #3	MB-03	Budget	20	Successful	Integer - Low	
+Successful Test Case #4	MB-04	Budget	0.50 	Successful	Float - Low	
+Successful Test Case #5	MB-05	Budget	 1234.65	Successful	Float - Medium	
+Successful Test Case #6	MB-06	Budget	999	Successful	Integer - Medium	
+Successful Test Case #7	MB-07	Crew	12	Successful	Integer - Medium	
+Successful Test Case #8	MB-08	Crew	222	Successful	Integer - High	
+Successful Test Case #9	MB-09	Crew	2	Successful	Integer - Low	
+Successful Test Case #10	MB-10	Costume	150 	Successful	Integer - Medium	
+Successful Test Case #11	MB-11	Costume	1234.34	Successful	Float - Medium	
+Successful Test Case #12	MB-12	Costume	60 	Successful	Integer - Low	
+Successful Test Case #13	MB-13	Costume	 44.59	Successful	Float - Low	
+Successful Test Case #14	MB-14	Costume	469	Successful	Integer - High	
+Successful Test Case #15	MB-15	Costume	625.12	Successful	Float - High	
+Successful Test Case #16	MB-16	Director	John	Successful	First name	
+Successful Test Case #17	MB-17	Director	John Smith	Successful	first and last name	
+Successful Test Case #18	MB-18	Director	Anne-Marie Muller 	Successful	Name with hyphen	
+Successful Test Case #19	MB-19	Director	Henry O'Brian	Successful	Name with apostrophe	
+Successful Test Case #20	MB-20	Director	John  	Successful	First name with tailing space	
+Successful Test Case #21	MB-21	Director	  John	Successful	First name with leading space	
+Successful Test Case #22	MB-22	Director	John  Smith	Successful	First name and last name with multiple spaces between	
+Successful Test Case #23	MB-23	Director	Димитър Иванов	Successful	Name in Cyrilic	
+Successful Test Case #24	MB-24	Director	 John  Smith 	Successful	Leading, tailing, and in between spaces	
+Successful Test Case #25	MB-25	Movie	Accountant	Successful	One word	
+Successful Test Case #26	MB-26	Movie	 Accountant 	Successful	Leading space	
+Successful Test Case #27	MB-27	Movie	Accountant 	Successful	Tailing space	
+Successful Test Case #28	MB-28	Movie	The Accountant 	Successful	Two words	
+Successful Test Case #29	MB-29	Movie	 The  Accountant	Successful	Multiple spaces in between	
+Successful Test Case #30	MB-30	Movie	The Diary of Anne-Marie	Successful	Including hyphen	
+Successful Test Case #31	MB-31	Movie	The Life of Henry O'Brian	Successful	Including apostrophe	
+Successful Test Case #32	MB-32	Movie	Оркестър Без Име	Successful	In Cyrilic	
+Successful Test Case #33	MB-33	Movie	 The  Accountant 	Successful	Leading, tailing, and in between spaces	 
+Unsuccessful Test Case #1	MB-34	Budget	""	Unsuccessful	Blank input	
+Unsuccessful Test Case #2	MB-35	Budget	0	Unsuccessful	Zero input	
+Unsuccessful Test Case #3	MB-36	Budget	-123 	Unsuccessful	Negative integer	
+Unsuccessful Test Case #4	MB-37	Budget	 -34.9807	Unsuccessful	Negative float	
+Unsuccessful Test Case #5	MB-38	Budget	Two hundred thousand	Unsuccessful	Text input	
+Unsuccessful Test Case #6	MB-39	Budget	$500	Unsuccessful	Character input	
+Unsuccessful Test Case #7	MB-40	Budget	" "	Unsuccessful	Space input	
+Unsuccessful Test Case #8	MB-41	Crew	""	Unsuccessful	Blank input	
+Unsuccessful Test Case #9	MB-42	Crew	" "	Unsuccessful	Space input	
+Unsuccessful Test Case #10	MB-43	Crew	0	Unsuccessful	Zero input	
+Unsuccessful Test Case #11	MB-44	Crew	3.49	Unsuccessful	Float input	
+Unsuccessful Test Case #12	MB-45	crew	-15	Unsuccessful	Negative integer	
+Unsuccessful Test Case #13	MB-46	Crew	-24.65	Unsuccessful	Negative float	
+Unsuccessful Test Case #14	MB-47	Crew	Hundred and twenty five	Unsuccessful	Text input	
+Unsuccessful Test Case #15	MB-48	Crew	$55.99	Unsuccessful	Character input	
+Unsuccessful Test Case #16	MB-49	Costume	""	Unsuccessful	Empty input	
+Unsuccessful Test Case #17	MB-50	Costume	" "	Unsuccessful	Blank input	
+Unsuccessful Test Case #18	MB-51	Costume	0	Unsuccessful	Zero input	
+Unsuccessful Test Case #19	MB-52	Costume	-29 	Unsuccessful	Negative integer	
+Unsuccessful Test Case #20	MB-53	Costume	 -341.29	Unsuccessful	Negative float	
+Unsuccessful Test Case #21	MB-54	Costume	Fifty five	Unsuccessful	Text input	
+Unsuccessful Test Case #22	MB-55	Costume	$444.44	Unsuccessful	Character input	
+Unsuccessful Test Case #23	MB-56	Director	""	Unsuccessful	Blank input	
+Unsuccessful Test Case #24	MB-57	Director	" "	Unsuccessful	Space input	
+Unsuccessful Test Case #25	MB-58	Director	123	Unsuccessful	Integer input	
+Unsuccessful Test Case #26	MB-59	Director	20.02	Unsuccessful	Float input	
+Unsuccessful Test Case #27	MB-60	Director	Adam@Calvin.com	Unsuccessful	Email input	
+Unsuccessful Test Case #28	MB-61	Director	Brian123 	Unsuccessful	Mixed input	
+Unsuccessful Test Case #29	MB-62	Director	 George$Michael432	Unsuccessful	Second mixed input	
+Unsuccessful Test Case #30	MB-63	Movie	""	Unsuccessful	Blank input	
+Unsuccessful Test Case #31	MB-64	Movie	" "	Unsuccessful	Space input	
+Unsuccessful Test Case #32	MB-65	Movie	321	Unsuccessful	Integer input	
+Unsuccessful Test Case #33	MB-66	Movie	12.36	Unsuccessful	Float input	
+Unsuccessful Test Case #34	MB-67	Movie	The Movie & Show	Unsuccessful	Character input	
+Unsuccessful Test Case #35	MB-68	Movie	7 Samurai Battle	Unsuccessful	Mixed input	
+Unsuccessful Test Case #36	MB-69	Movie	movie@gmail.com	Unsuccessful	Email input	
+Unsuccessful Test Case #37	MB-70	Movie	Henry the 8th %89 	Unsuccessful	Second mixed integer	
+Successful Business Logic Test Case #1	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #2	MB-72	Business Logic	 Budget: 20000; Crew Members: 140; Costume Price: 100; Director: Copolla; Movie: Good Boys;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #3	MB-73	Business Logic	 Budget: 18000; Crew Members: 100; Costume Price: 140; Director: Cem Yilmaz; Movie: Gora;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #4	MB-74	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 80; Director: George Orwel; Movie: Animal Farm;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #5	MB-75	Business Logic	 Budget: 20000; Crew Members: 60; Costume Price: 120; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #6	MB-76	Business Logic	 Budget: 20000; Crew Members: 150; Costume Price: 100; Director: Nolan; Movie: Interstellar;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #7	MB-77	Business Logic	 Budget: 20000; Crew Members: 151; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #8	MB-78	Business Logic	 Budget: 20000; Crew Members: 200; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #9	MB-79	Business Logic	 Budget: 20000; Crew Members: 300; Costume Price: 15; Director: Ridley Scot; Movie: Gladiator;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #10	MB-80	Business Logic	 Budget: 20000; Crew Members: 50; Costume Price: 50; Director: Mel Gibson; Movie: The Patriot;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #11	MB-81	Business Logic	 Budget: 10000; Crew Members: 100; Costume Price: 100; Director: Gibbon; Movie: Epic War;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #12	MB-82	Business Logic	 Budget: 5000; Crew Members: 100; Costume Price: 100; Director: Cohen; Movie: Borat;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #13	MB-83	Business Logic	 Budget: 20000; Crew Members: 50; Costume Price: 50; Director: Mel Gibson; Movie: The Patriot;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #14	MB-84	Business Logic	 Budget: 5000; Crew Members: 100; Costume Price: 99.99; Director: Nolan; Movie: Batman Begins;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #15	MB-85	Business Logic	 Budget: 4000; Crew Members: 99; Costume Price: 59.99; Director: Scot; Movie: Napoleon;	Successful	Business logic test with simple input.	
+Unsuccessful Business Logic Test Case #1	MB-86	Business Logic	 Budget: 4000; Crew Members: 99.99; Costume Price: 60; Director: Puso; Movie: The Godfather;	Unsuccessful	Business logic test with wrong input.	
+Unsuccessful Business Logic Test Case #2	MB-87	Business Logic	 Budget: 2000; Crew Members: 0; Costume Price: 10; Director: Cameron; Movie: Avatar;	Unsuccessful	Business logic test with wrong input.	
+Unsuccessful Business Logic Test Case #3	MB-88	Business Logic	 Budget: 1000; Crew Members: -100; Costume Price: 100; Director: Nolan; Movie: Memento;	Unsuccessful	Business logic test with wrong input.	
+Unsuccessful Business Logic Test Case #4	MB-89	Business Logic	 Budget: 1000; Crew Members: 100; Costume Price: 100; Director: ; Movie: Nemo;	Unsuccessful	Business logic test with wrong input.	
+Unsuccessful Business Logic Test Case #5	MB-90	Business Logic	 Budget: 1000; Crew Members: 100; Costume Price: 100; Director: ; Movie: Nemo2;	Unsuccessful	Business logic test with wrong input.	
+Unsuccessful Business Logic Test Case #6	MB-91	Business Logic	 Budget: 1000; Crew Members: 100; Costume Price: 100; Director: 123; Movie: Nemo3;	Unsuccessful	Business logic test with wrong input.	
+Unsuccessful Business Logic Test Case #7	MB-92	Business Logic	 Budget: 1000; Crew Members: 100; Costume Price: 100; Director: Buttler; Movie: ;	Unsuccessful	Business logic test with wrong input.	
+Unsuccessful Business Logic Test Case #8	MB-93	Business Logic	 Budget: 1000; Crew Members: 100; Costume Price: 100; Director: Cameron; Movie: ;	Unsuccessful	Business logic test with wrong input.	
+Unsuccessful Business Logic Test Case #9	MB-94	Business Logic	 Budget: 1000; Crew Members: 100; Costume Price: 100; Director: Gerard Butler; Movie: 13;	Unsuccessful	Business logic test with wrong input.	
+Unsuccessful Business Logic Test Case #10	MB-95	Business Logic	 Budget: 1000; Crew Members: 100.001; Costume Price: 10.01; Director: ; Movie: ;	Unsuccessful	Business logic test with wrong input.	
+Unsuccessful Business Logic Test Case #11	MB-96	Business Logic	 Budget: 1000; Crew Members: 123.321; Costume Price: 10.99; Director: ; Movie: Titanic;	Unsuccessful	Business logic test with wrong input.	
+Unsuccessful Business Logic Test Case #12	MB-97	Business Logic	 Budget: 1000; Crew Members: 1000; Costume Price: 100; Director: 123; Movie: 321;	Unsuccessful	Business logic test with wrong input.	
+Unsuccessful Business Logic Test Case #13	MB-98	Business Logic	 Budget: 1000; Crew Members: 15.51; Costume Price: 20; Director: Nolan; Movie: ;	Unsuccessful	Business logic test with wrong input.	
+Unsuccessful Business Logic Test Case #14	MB-99	Business Logic	 Budget: Thousand; Crew Members: 10.5; Costume Price: hundred; Director: 0; Movie: ;	Unsuccessful	Business logic test with wrong input.	
+Unsuccessful Business Logic Test Case #15	MB-100	Business Logic	 Budget: -1000; Crew Members: 0; Costume Price: 0; Director: ; Movie: ;	Unsuccessful	Business logic test with wrong input.	
