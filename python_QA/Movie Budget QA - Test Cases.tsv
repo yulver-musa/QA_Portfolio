@@ -56,11 +56,11 @@ Unsuccessful Test Case #21	MB-54	Costume	Fifty five	Unsuccessful	Text input
 Unsuccessful Test Case #22	MB-55	Costume	$444.44	Unsuccessful	Character input	
 Unsuccessful Test Case #23	MB-56	Director	""	Unsuccessful	Blank input	
 Unsuccessful Test Case #24	MB-57	Director	" "	Unsuccessful	Space input	
-Unsuccessful Test Case #25	MB-58	Director	321	Unsuccessful	Integer input	
-Unsuccessful Test Case #1	MB-34	Budget	""	Unsuccessful	Blank input	
-Unsuccessful Test Case #2	MB-35	Budget	0	Unsuccessful	Zero input	
-Unsuccessful Test Case #3	MB-36	Budget	-123 	Unsuccessful	Negative integer	
-Unsuccessful Test Case #4	MB-37	Budget	 -34.9807	Unsuccessful	Negative float	
+Unsuccessful Test Case #25	MB-58	Director	123	Unsuccessful	Integer input	
+Unsuccessful Test Case #26	MB-59	Director	20.02	Unsuccessful	Float input	
+Unsuccessful Test Case #27	MB-60	Director	Adam@Calvin.com	Unsuccessful	Email input	
+Unsuccessful Test Case #28	MB-61	Director	Brian123 	Unsuccessful	Mixed input	
+Unsuccessful Test Case #29	MB-62	Director	 George$Michael432	Unsuccessful	Second mixed input	
 Unsuccessful Test Case #5	MB-38	Budget	Two hundred thousand	Unsuccessful	Text input	
 Unsuccessful Test Case #6	MB-39	Budget	$500	Unsuccessful	Character input	
 Unsuccessful Test Case #7	MB-40	Budget	" "	Unsuccessful	Space input	
