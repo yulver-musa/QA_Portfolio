@@ -85,3 +85,4 @@ Successful Business Logic Test Case #13	MB-83	Business Logic	 Budget: 20000; Cre
 Successful Business Logic Test Case #14	MB-84	Business Logic	 Budget: 5000; Crew Members: 100; Costume Price: 99.99; Director: Nolan; Movie: Batman Begins;	Successful	Business logic test with simple input.	
 Successful Business Logic Test Case #15	MB-85	Business Logic	 Budget: 4000; Crew Members: 99; Costume Price: 59.99; Director: Scot; Movie: Napoleon;	Successful	Business logic test with simple input.	
 Unsuccessful Business Logic Test Case #1	MB-86	Business Logic	 Budget: 4000; Crew Members: 99.99; Costume Price: 60; Director: Puso; Movie: The Godfather;	Unsuccessful	Business logic test with wrong input.	
+Unsuccessful Business Logic Test Case #2	MB-87	Business Logic	 Budget: 4000; Crew Members: 0; Costume Price: 10; Director: Cameron; Movie: Avatar;	Unsuccessful	Business logic test with wrong input.	
