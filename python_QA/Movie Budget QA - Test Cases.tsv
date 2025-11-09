@@ -69,17 +69,17 @@ Unsuccessful Test Case #34	MB-67	Movie	The Movie & Show	Unsuccessful	Character i
 Unsuccessful Test Case #35	MB-68	Movie	7 Samurai Battle	Unsuccessful	Mixed input	
 Unsuccessful Test Case #36	MB-69	Movie	movie@gmail.com	Unsuccessful	Email input	
 Unsuccessful Test Case #37	MB-70	Movie	Henry the 8th %89 	Unsuccessful	Second mixed integer	
-Successful Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
-Successful Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
-Successful Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
-Successful Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
-Successful Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
-Successful Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
-Successful Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
-Successful Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
-Successful Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
-Successful Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
-Successful Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #1	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #2	MB-72	Business Logic	 Budget: 20000; Crew Members: 140; Costume Price: 100; Director: Copolla; Movie: Good Boys;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #3	MB-73	Business Logic	 Budget: 18000; Crew Members: 100; Costume Price: 140; Director: Cem Yilmaz; Movie: Gora;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #4	MB-74	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 80; Director: George Orwel; Movie: Animal Farm;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
+Successful Business Logic Test Case #38	MB-71	Business Logic	 Budget: 20000; Crew Members: 100; Costume Price: 100; Director: Wingard; Movie: Epic Battle;	Successful	Business logic test with simple input.	
 
 Unsuccessful Test Case #6	MB-39	Budget	$500	Unsuccessful	Character input	
 Unsuccessful Test Case #7	MB-40	Budget	" "	Unsuccessful	Space input	
