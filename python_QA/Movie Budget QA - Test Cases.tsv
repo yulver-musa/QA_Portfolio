@@ -61,7 +61,7 @@ Unsuccessful Test Case #26	MB-59	Director	20.02	Unsuccessful	Float input
 Unsuccessful Test Case #27	MB-60	Director	Adam@Calvin.com	Unsuccessful	Email input	
 Unsuccessful Test Case #28	MB-61	Director	Brian123 	Unsuccessful	Mixed input	
 Unsuccessful Test Case #29	MB-62	Director	 George$Michael432	Unsuccessful	Second mixed input	
-Unsuccessful Test Case #5	MB-38	Budget	Two hundred thousand	Unsuccessful	Text input	
+Unsuccessful Test Case #30	MB-63	Movie	""	Unsuccessful	Blank input	
 Unsuccessful Test Case #6	MB-39	Budget	$500	Unsuccessful	Character input	
 Unsuccessful Test Case #7	MB-40	Budget	" "	Unsuccessful	Space input	
 Unsuccessful Test Case #8	MB-41	Crew	""	Unsuccessful	Blank input	
