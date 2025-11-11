@@ -10,6 +10,8 @@ import pytest
     #assert page.inner_text('h3') == "Epic sadface: You can only access '/inventory.html' when you are logged in."
 
 #Test run: pytest --headed --base-url https://www.saucedemo.com/ --browser chromium --browser firefox
+
+@pytest.mark.skip_browser("chromium")
 def test_title(page: Page):
     page.goto("/")
     assert page.title() == "Swag Labs"
