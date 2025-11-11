@@ -12,7 +12,7 @@ import pytest
 #Test run: pytest --headed --base-url https://www.saucedemo.com/ --browser chromium --browser firefox
 
 #@pytest.mark.skip_browser("chromium")
-@pytest.mark.only_browser("chromium")
+#@pytest.mark.only_browser("chromium")
 def test_title(page: Page):
     page.goto("/")
     assert page.title() == "Swag Labs"
