@@ -11,6 +11,7 @@ import pytest
 
 #Test run: pytest --headed --base-url https://www.saucedemo.com/ --browser chromium --browser firefox
 #Test run: pytest --headed --base-url https://www.saucedemo.com/ --browser-channel chrome
+#Test run: pytest --headed --base-url https://www.saucedemo.com/ --browser-channel chrome --tracing on
 #@pytest.mark.skip_browser("chromium")
 #@pytest.mark.only_browser("chromium")
 def test_title(page: Page):
